@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "pass_score": 85,
+  "criteria": [
+    {"id":"correctness","weight":25,"description":"Exact runnable supported action, role and expected output; no roadmap capability presented as implemented."},
+    {"id":"evidence","weight":20,"description":"Traceable repository/revision/path evidence; runtime versus source-only claims correctly distinguished."},
+    {"id":"learning","weight":20,"description":"Observable goal, complete prerequisites, sequenced actions, expected result, realistic recovery and independent practice."},
+    {"id":"governance","weight":15,"description":"Owner/reviewer/date metadata, complete JSON ledger and mappings, mandatory review limits explicit."},
+    {"id":"data_handling","weight":10,"description":"No personal/confidential inputs sent to unapproved tools; offline path and asset inventory supported."},
+    {"id":"localization","weight":10,"description":"Stable glossary and segment IDs, source labels retained, missing translation reviews explicit."}
+  ],
+  "critical_failures": ["invented_capability", "secret_or_personal_data_disclosure", "false_runtime_verification", "unapproved_external_tool"]
+}

@@ -1,0 +1,6 @@
+shot_id,objective,duration_estimate_seconds,starting_state,action,resulting_state,narration,on_screen_copy,motion_and_purpose,hold_seconds,audio_cue,accessibility_note,evidence_reference
+S01,Orient,15,Terminal in fixture folder,Identify app.py,Ready to run,tutorial-script.md S01,Local fixture; no persistence,None,3,None,State folder in speech,implementation
+S02,Run task,25,Ready terminal,Run exact command from script,JSON printed,tutorial-script.md S02,Exact command from script,Highlight command as editorial overlay only,7,None,Selectable command text,success
+S03,Interpret,20,JSON printed,Read status and boundary,Checkpoint understood,tutorial-script.md S03,submitted; visible_to; final false,Hold result,7,None,Explain fields aloud,implementation;success
+S04,Recover,25,Terminal ready,Optional synthetic failure examples,Exit 2; correct input and retry,tutorial-script.md S04,Exact errors in script,None,5,None,Read errors aloud,role-error;empty-error
+S05,Transfer,20,Ready terminal,Use different synthetic text,submitted,tutorial-script.md S05,Repair the library roof,None,10,None,Explicit pause for practice,implementation

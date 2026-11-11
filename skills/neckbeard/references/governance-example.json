@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "illustrative": true,
+  "repositories": [
+    {
+      "id": "product"
+    }
+  ],
+  "documents": [
+    {
+      "id": "first-task",
+      "path": "docs/first-task.md",
+      "owner": "learning-team",
+      "source_revision": "REPLACE_WITH_COMMIT",
+      "evidence_state": "unverified",
+      "reviewer": "documentation-owner",
+      "review_by": "2099-01-01",
+      "locale": "en",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "product",
+          "revision": "REPLACE_WITH_COMMIT",
+          "paths": [
+            "app.py"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "submit-evidence"
+      ],
+      "reviews": [],
+      "templates": [
+        "references/governed-document.md"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "submit-evidence",
+      "repository": "product",
+      "revision": "REPLACE_WITH_COMMIT",
+      "path": "app.py",
+      "claim": "Replace with an implementation-grounded claim",
+      "method": "none",
+      "result": "not-run",
+      "limitations": "Illustrative template; no inspection performed."
+    }
+  ],
+  "media_assets": [],
+  "gate_receipts": []
+}

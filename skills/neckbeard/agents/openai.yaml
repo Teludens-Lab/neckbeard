@@ -1,0 +1,6 @@
+interface:
+  display_name: "Neckbeard"
+  short_description: "Verified onboarding with selectable learning components"
+  default_prompt: "Use $neckbeard to create verified, role-based onboarding for this repository."
+  icon_small: "./assets/neckbeard.svg"
+  icon_large: "./assets/neckbeard.svg"

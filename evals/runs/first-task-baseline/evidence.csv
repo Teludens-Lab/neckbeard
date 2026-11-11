@@ -1,0 +1,5 @@
+claim,id,limitations,method,path,repository,result,revision
+"Required arguments, only submit action, help and errors",cli,Local fixture only,runtime,app.py,approval-product-fixture,passed,f81fd04b36c85d3c4236ba5e56222decd024807f
+Three successful submissions and role/blank-text rejection match expected JSON and exits,validation,Not authenticated; no real sharing,runtime,app.py,approval-product-fixture,passed,f81fd04b36c85d3c4236ba5e56222decd024807f
+"No persistence, retrieval, edit, finalization or external calls",scope,Only inspected fixture,source,app.py,approval-product-fixture,passed,f81fd04b36c85d3c4236ba5e56222decd024807f
+Translation and bulk export unimplemented,roadmap,No release commitment,source,README.md,approval-product-fixture,passed,f81fd04b36c85d3c4236ba5e56222decd024807f

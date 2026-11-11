@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "configured": false,
+  "organization": "Configure your organization",
+  "house_style": {
+    "tone": "clear, warm, precise",
+    "language": "en",
+    "date_format": "YYYY-MM-DD",
+    "accessibility": "Semantic headings, reviewed captions, text alternatives"
+  },
+  "glossary": {
+    "path": "glossary.json",
+    "source_locale": "en",
+    "target_locales": []
+  },
+  "documentation_platform": {
+    "name": "repository-markdown",
+    "root": "docs"
+  },
+  "required_templates": [
+    "references/governed-document.md"
+  ],
+  "approved_tools": [],
+  "data_classification": {
+    "default": "confidential",
+    "classes": [
+      "public",
+      "internal",
+      "personal",
+      "confidential",
+      "classified"
+    ],
+    "external_denied": [
+      "personal",
+      "confidential",
+      "classified"
+    ],
+    "offline_only": [
+      "classified"
+    ],
+    "require_asset_review": true
+  },
+  "mandatory_reviewers": [
+    "documentation-owner"
+  ],
+  "review_interval_days": 90
+}

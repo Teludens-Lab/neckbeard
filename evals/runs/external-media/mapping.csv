@@ -1,0 +1,9 @@
+document_id,document_path,repository,revision,source_path,translation_of,workflow
+approval-cli-response,response.md,approval-product,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+approval-cli-response,response.md,approval-product,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal
+approval-cli-tutorial-script,tutorial-script.md,approval-product,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+approval-cli-tutorial-script,tutorial-script.md,approval-product,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal
+approval-cli-production-brief,production-brief.md,approval-product,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+approval-cli-production-brief,production-brief.md,approval-product,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal
+approval-cli-storyboard,storyboard.csv,approval-product,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+approval-cli-storyboard,storyboard.csv,approval-product,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal

@@ -1,0 +1,7 @@
+{
+  "draft_record_and_files": "passed record_check with root",
+  "profile_validation": "blocked: project profile missing",
+  "release": "not attempted; prohibited without configured policy and assigned independent reviewers",
+  "gate": "not invoked; no media processing attempted",
+  "external_calls": 0
+}

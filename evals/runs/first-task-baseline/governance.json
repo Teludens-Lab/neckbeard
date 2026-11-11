@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "id": "approval-product-fixture",
+      "source_root": "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product",
+      "revision_scope": "Containing repository HEAD; source hashes recorded separately"
+    }
+  ],
+  "documents": [
+    {
+      "id": "onboarding",
+      "path": "README.md",
+      "owner": "unassigned \u2014 draft authoring only",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned \u2014 organization must designate",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product-fixture",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "cli",
+        "validation",
+        "scope",
+        "roadmap"
+      ],
+      "reviews": []
+    },
+    {
+      "id": "first-task",
+      "path": "first-task.md",
+      "owner": "unassigned \u2014 draft authoring only",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned \u2014 organization must designate",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product-fixture",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "cli",
+        "validation",
+        "scope",
+        "roadmap"
+      ],
+      "reviews": []
+    },
+    {
+      "id": "practice",
+      "path": "practice.md",
+      "owner": "unassigned \u2014 draft authoring only",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned \u2014 organization must designate",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product-fixture",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "cli",
+        "validation",
+        "scope",
+        "roadmap"
+      ],
+      "reviews": []
+    },
+    {
+      "id": "troubleshooting",
+      "path": "troubleshooting.md",
+      "owner": "unassigned \u2014 draft authoring only",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned \u2014 organization must designate",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product-fixture",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "cli",
+        "validation",
+        "scope",
+        "roadmap"
+      ],
+      "reviews": []
+    },
+    {
+      "id": "verification",
+      "path": "verification.md",
+      "owner": "unassigned \u2014 draft authoring only",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned \u2014 organization must designate",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product-fixture",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "cli",
+        "validation",
+        "scope",
+        "roadmap"
+      ],
+      "reviews": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "cli",
+      "repository": "approval-product-fixture",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "app.py",
+      "claim": "Required arguments, only submit action, help and errors",
+      "method": "runtime",
+      "result": "passed",
+      "limitations": "Local fixture only"
+    },
+    {
+      "id": "validation",
+      "repository": "approval-product-fixture",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "app.py",
+      "claim": "Three successful submissions and role/blank-text rejection match expected JSON and exits",
+      "method": "runtime",
+      "result": "passed",
+      "limitations": "Not authenticated; no real sharing"
+    },
+    {
+      "id": "scope",
+      "repository": "approval-product-fixture",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "app.py",
+      "claim": "No persistence, retrieval, edit, finalization or external calls",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Only inspected fixture"
+    },
+    {
+      "id": "roadmap",
+      "repository": "approval-product-fixture",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "README.md",
+      "claim": "Translation and bulk export unimplemented",
+      "method": "source",
+      "result": "passed",
+      "limitations": "No release commitment"
+    }
+  ],
+  "media_assets": [],
+  "gate_receipts": [],
+  "review_state": "draft; no configured profile; no independent approvals"
+}

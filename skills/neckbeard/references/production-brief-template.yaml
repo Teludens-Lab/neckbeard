@@ -1,0 +1,65 @@
+# Proposed defaults; resolve tool support before promising production.
+audience: null
+objective: null
+prerequisites: []
+role: null
+source_revision: null
+workflow_evidence: []
+mode: combined # script | audio | video | combined; script-only when explicitly scoped or tools blocked
+requested_deliverables: [tutorial.md, tutorial.html, tutorial.pdf, tutorial.mp4, tutorial.mp3, script, storyboard, transcript]
+duration_seconds: null
+branding: destination_project
+video:
+  resolution: 1920x1080
+  aspect_ratio: '16:9'
+  frame_rate: 30
+  format: mp4
+  direction: restrained, warm, tactile, continuous
+  motion: purposeful springs with subtle settling
+  real_interface_capture: required_for_product_demonstration
+  reading_holds: required
+  music: false
+audio:
+  language: null
+  voice: null
+  accent: null
+  tone: calm, natural, conversational
+  speaking_rate_wpm: [135, 155]
+  pronunciation_dictionary: {}
+  standalone_adaptation: true
+  delivery_format: mp3
+  master_format: wav
+  integrated_loudness_lufs_stereo: -16
+  true_peak_max_dbtp: -1
+script:
+  one_main_idea_per_segment: true
+  exact_verified_control_labels: true
+  sequence: [orient, demonstrate, practise, confirm, transfer]
+accessibility:
+  reviewed_captions: true
+  transcript_with_essential_visual_context: true
+  colour_only_instructions: false
+  essential_visual_descriptions: required
+verification:
+  available_tools: []
+  unavailable_capabilities: []
+  actual_audio_review: unverified
+  actual_video_review: unverified
+  export_properties: unverified
+  workflow_result: unverified
+
+governance:
+  org_profile_path: null
+  document_id: null
+  owner: null
+  reviewer: null
+  review_by: null
+  evidence_state: unverified
+  locale: en
+  governance_record: governance.json
+data_handling:
+  mode: offline
+  approved_tool_id: null
+  media_asset_ids: []
+  gate_receipt: null
+  network_isolation_verified: false

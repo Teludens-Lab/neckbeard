@@ -1,0 +1,217 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "id": "/workspace/scratch/9b38bf47b721/neckbeard",
+      "root": "/workspace/scratch/9b38bf47b721/neckbeard",
+      "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "files": [
+        {
+          "path": "evals/fixtures/approval-product/app.py",
+          "sha256": "9961a97f3c91c6d7363e472bb04130996428cab58b0215d1fe826ed2090f2221",
+          "tracked": true,
+          "unchanged_at_revision": true
+        },
+        {
+          "path": "evals/fixtures/approval-product/README.md",
+          "sha256": "8bb887ff7a3a6245b0ff3b55a0b79379cdce2682a32251e5bc85d13ade518187",
+          "tracked": true,
+          "unchanged_at_revision": true
+        }
+      ]
+    }
+  ],
+  "documents": [
+    {
+      "id": "proposal-index",
+      "path": "index.md",
+      "owner": "unassigned",
+      "source_revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "review_state": "draft",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "/workspace/scratch/9b38bf47b721/neckbeard",
+          "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+          "paths": [
+            "evals/fixtures/approval-product/app.py",
+            "evals/fixtures/approval-product/README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "cli-checks",
+        "readme"
+      ],
+      "reviews": [],
+      "templates": [
+        "references/governed-document.md"
+      ]
+    },
+    {
+      "id": "proposal-first-task",
+      "path": "first-task.md",
+      "owner": "unassigned",
+      "source_revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "review_state": "draft",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "/workspace/scratch/9b38bf47b721/neckbeard",
+          "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+          "paths": [
+            "evals/fixtures/approval-product/app.py",
+            "evals/fixtures/approval-product/README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "cli-checks",
+        "readme"
+      ],
+      "reviews": [],
+      "templates": [
+        "references/governed-document.md"
+      ]
+    },
+    {
+      "id": "proposal-practice",
+      "path": "practice.md",
+      "owner": "unassigned",
+      "source_revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "review_state": "draft",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "/workspace/scratch/9b38bf47b721/neckbeard",
+          "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+          "paths": [
+            "evals/fixtures/approval-product/app.py",
+            "evals/fixtures/approval-product/README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "cli-checks",
+        "readme"
+      ],
+      "reviews": [],
+      "templates": [
+        "references/governed-document.md"
+      ]
+    },
+    {
+      "id": "proposal-troubleshooting",
+      "path": "troubleshooting.md",
+      "owner": "unassigned",
+      "source_revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "review_state": "draft",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "/workspace/scratch/9b38bf47b721/neckbeard",
+          "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+          "paths": [
+            "evals/fixtures/approval-product/app.py",
+            "evals/fixtures/approval-product/README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "cli-checks",
+        "readme"
+      ],
+      "reviews": [],
+      "templates": [
+        "references/governed-document.md"
+      ]
+    },
+    {
+      "id": "proposal-verification",
+      "path": "verification.md",
+      "owner": "unassigned",
+      "source_revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-12-11",
+      "locale": "en",
+      "review_state": "draft",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "/workspace/scratch/9b38bf47b721/neckbeard",
+          "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+          "paths": [
+            "evals/fixtures/approval-product/app.py",
+            "evals/fixtures/approval-product/README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "cli-checks",
+        "readme"
+      ],
+      "reviews": [],
+      "templates": [
+        "references/governed-document.md"
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "implementation",
+      "repository": "/workspace/scratch/9b38bf47b721/neckbeard",
+      "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "path": "evals/fixtures/approval-product/app.py",
+      "claim": "CLI accepts only submit, validates role and nonblank text, returns fixed nonfinal visibility metadata without storage or integrations.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Fixture only; source inspection does not demonstrate actual sharing."
+    },
+    {
+      "id": "cli-checks",
+      "repository": "/workspace/scratch/9b38bf47b721/neckbeard",
+      "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "path": "evals/fixtures/approval-product/app.py",
+      "claim": "Eight CLI checks passed for success, failure and help cases.",
+      "method": "runtime",
+      "result": "passed",
+      "limitations": "Local Python only; no human learner observation; detailed runtime-checks.json."
+    },
+    {
+      "id": "readme",
+      "repository": "/workspace/scratch/9b38bf47b721/neckbeard",
+      "revision": "06c8a7166fe7a6048c64dc59aa43318ff42185ea",
+      "path": "evals/fixtures/approval-product/README.md",
+      "claim": "README documents submit and states translation and bulk export are unimplemented.",
+      "method": "documentation",
+      "result": "passed",
+      "limitations": "Corroborated for the inspected fixture; no production claims."
+    }
+  ],
+  "media_assets": [],
+  "gate_receipts": [],
+  "review_state": "draft",
+  "profile_status": "absent; restrictive unconfigured template included for draft checks only"
+}

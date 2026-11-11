@@ -1,0 +1,5 @@
+evidence_state,id,locale,owner,path,review_by,reviewer,source_revision
+source-supported,approval-cli-response,en,unassigned,response.md,2026-11-11,unassigned,f81fd04b36c85d3c4236ba5e56222decd024807f
+source-supported,approval-cli-tutorial-script,en,unassigned,tutorial-script.md,2026-11-11,unassigned,f81fd04b36c85d3c4236ba5e56222decd024807f
+source-supported,approval-cli-production-brief,en,unassigned,production-brief.md,2026-11-11,unassigned,f81fd04b36c85d3c4236ba5e56222decd024807f
+source-supported,approval-cli-storyboard,en,unassigned,storyboard.csv,2026-11-11,unassigned,f81fd04b36c85d3c4236ba5e56222decd024807f

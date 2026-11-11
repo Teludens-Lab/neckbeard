@@ -1,0 +1,6 @@
+evidence_state,id,locale,owner,path,review_by,reviewer,source_revision
+source-supported,onboarding,en,unassigned — draft authoring only,README.md,2026-12-11,unassigned — organization must designate,f81fd04b36c85d3c4236ba5e56222decd024807f
+source-supported,first-task,en,unassigned — draft authoring only,first-task.md,2026-12-11,unassigned — organization must designate,f81fd04b36c85d3c4236ba5e56222decd024807f
+source-supported,practice,en,unassigned — draft authoring only,practice.md,2026-12-11,unassigned — organization must designate,f81fd04b36c85d3c4236ba5e56222decd024807f
+source-supported,troubleshooting,en,unassigned — draft authoring only,troubleshooting.md,2026-12-11,unassigned — organization must designate,f81fd04b36c85d3c4236ba5e56222decd024807f
+source-supported,verification,en,unassigned — draft authoring only,verification.md,2026-12-11,unassigned — organization must designate,f81fd04b36c85d3c4236ba5e56222decd024807f

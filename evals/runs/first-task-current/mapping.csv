@@ -1,0 +1,11 @@
+document_id,document_path,repository,revision,source_path,translation_of,workflow
+proposal-index,index.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/app.py,,submit-proposal
+proposal-index,index.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/README.md,,submit-proposal
+proposal-first-task,first-task.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/app.py,,submit-proposal
+proposal-first-task,first-task.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/README.md,,submit-proposal
+proposal-practice,practice.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/app.py,,submit-proposal
+proposal-practice,practice.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/README.md,,submit-proposal
+proposal-troubleshooting,troubleshooting.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/app.py,,submit-proposal
+proposal-troubleshooting,troubleshooting.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/README.md,,submit-proposal
+proposal-verification,verification.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/app.py,,submit-proposal
+proposal-verification,verification.md,/workspace/scratch/9b38bf47b721/neckbeard,06c8a7166fe7a6048c64dc59aa43318ff42185ea,evals/fixtures/approval-product/README.md,,submit-proposal

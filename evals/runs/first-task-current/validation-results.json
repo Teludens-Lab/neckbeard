@@ -1,0 +1,43 @@
+{
+  "checks": [
+    {
+      "command": [
+        "profile",
+        "--profile",
+        "/workspace/scratch/a9802cd6dc69/eval-first-task-repeat/draft-profile.json"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"valid\": true\n}\n"
+    },
+    {
+      "command": [
+        "validate",
+        "--record",
+        "/workspace/scratch/a9802cd6dc69/eval-first-task-repeat/governance.json",
+        "--profile",
+        "/workspace/scratch/a9802cd6dc69/eval-first-task-repeat/draft-profile.json",
+        "--root",
+        "/workspace/scratch/a9802cd6dc69/eval-first-task-repeat"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"valid\": true,\n  \"release\": false\n}\n"
+    },
+    {
+      "command": [
+        "export",
+        "--record",
+        "/workspace/scratch/a9802cd6dc69/eval-first-task-repeat/governance.json",
+        "--out",
+        "/workspace/scratch/a9802cd6dc69/eval-first-task-repeat"
+      ],
+      "exit_code": 0,
+      "output": "{\n  \"exported\": \"/workspace/scratch/a9802cd6dc69/eval-first-task-repeat\"\n}\n"
+    },
+    {
+      "check": "relative Markdown links",
+      "passed": true,
+      "links_checked": 10
+    }
+  ],
+  "release_validation": "not-run; blocked by absent configured profile and independent approvals"
+}

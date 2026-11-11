@@ -1,0 +1,32 @@
+{
+  "case_id": "first-task",
+  "reviewer": "development-agent review; not independent",
+  "artifact": "evals/runs/first-task-current",
+  "criteria": {
+    "correctness": {
+      "score": 4,
+      "evidence": "first-task.md: exact supported CLI task and observable result"
+    },
+    "evidence": {
+      "score": 4,
+      "evidence": "verification.md and runtime-checks.json: eight asserted checks, tracked input hashes, correct Git-root-relative mappings"
+    },
+    "learning": {
+      "score": 4,
+      "evidence": "first-task.md, practice.md, troubleshooting.md: complete task and recovery"
+    },
+    "governance": {
+      "score": 3,
+      "evidence": "governance.json: draft ownership honestly unassigned; absolute repository identifier reduces portability"
+    },
+    "data_handling": {
+      "score": 4,
+      "evidence": "verification.md: synthetic examples, no external processing, unconfigured profile not treated as approval"
+    },
+    "localization": {
+      "score": 2,
+      "evidence": "Stable artifact IDs and source language; translation review is not exercised"
+    }
+  },
+  "critical_failures": []
+}

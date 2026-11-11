@@ -1,0 +1,42 @@
+{
+  "name": "neckbeard",
+  "version": "2.0.1",
+  "core": {
+    "required": true,
+    "description": "Repository orientation, evidence checks, task tutorials, and output patterns"
+  },
+  "components": {
+    "end-user": {
+      "title": "End-user onboarding",
+      "instructions": "components/end-user.md"
+    },
+    "admin": {
+      "title": "Administrator and operator guides",
+      "instructions": "components/admin.md"
+    },
+    "developer": {
+      "title": "Developer learning",
+      "instructions": "components/developer.md"
+    },
+    "practice": {
+      "title": "Practice and performance checks",
+      "instructions": "components/practice.md"
+    },
+    "maintenance": {
+      "title": "Documentation maintenance",
+      "instructions": "components/maintenance.md"
+    },
+    "media": {
+      "title": "Audio, video, and tutorial scripts",
+      "instructions": "components/media.md"
+    },
+    "support": {
+      "title": "Support staff learning",
+      "instructions": "components/support.md"
+    },
+    "release-training": {
+      "title": "Release and change training",
+      "instructions": "components/release-training.md"
+    }
+  }
+}

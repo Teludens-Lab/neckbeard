@@ -1,0 +1,31 @@
+name: Learning governance and maintenance
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  governance:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -r skills/neckbeard/requirements.txt
+      - name: Validate metadata and document evidence
+        run: python skills/neckbeard/scripts/governance.py validate --profile .neckbeard/org-profile.yaml --record .neckbeard/governance.json --root .
+      - name: Export machine and readable audit
+        run: python skills/neckbeard/scripts/governance.py export --record .neckbeard/governance.json --out /tmp/neckbeard-audit
+      - name: Check mapped sources
+        run: python skills/neckbeard/scripts/governance.py stale --record .neckbeard/governance.json --repo neckbeard=. > /tmp/neckbeard-audit/stale.json
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: learning-governance
+          path: /tmp/neckbeard-audit

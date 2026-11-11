@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "id": "approval-product"
+    }
+  ],
+  "documents": [
+    {
+      "owner": "unassigned",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-11-11",
+      "locale": "en",
+      "id": "approval-cli-response",
+      "path": "response.md",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "success",
+        "role-error",
+        "empty-error",
+        "roadmap"
+      ],
+      "reviews": []
+    },
+    {
+      "owner": "unassigned",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-11-11",
+      "locale": "en",
+      "id": "approval-cli-tutorial-script",
+      "path": "tutorial-script.md",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "success",
+        "role-error",
+        "empty-error",
+        "roadmap"
+      ],
+      "reviews": []
+    },
+    {
+      "owner": "unassigned",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-11-11",
+      "locale": "en",
+      "id": "approval-cli-production-brief",
+      "path": "production-brief.md",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "success",
+        "role-error",
+        "empty-error",
+        "roadmap"
+      ],
+      "reviews": []
+    },
+    {
+      "owner": "unassigned",
+      "source_revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "evidence_state": "source-supported",
+      "reviewer": "unassigned",
+      "review_by": "2026-11-11",
+      "locale": "en",
+      "id": "approval-cli-storyboard",
+      "path": "storyboard.csv",
+      "workflow": "submit-proposal",
+      "sources": [
+        {
+          "repository": "approval-product",
+          "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+          "paths": [
+            "app.py",
+            "README.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "implementation",
+        "success",
+        "role-error",
+        "empty-error",
+        "roadmap"
+      ],
+      "reviews": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "implementation",
+      "repository": "approval-product",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "app.py",
+      "claim": "CLI prints JSON with declared visibility/nonfinal fields; no persistence or authentication implementation.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Local learning fixture only; no production integration or learner effectiveness established."
+    },
+    {
+      "id": "success",
+      "repository": "approval-product",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "app.py",
+      "claim": "Synthetic participant submission printed submitted, participant/facilitator, final false; exit 0.",
+      "method": "runtime",
+      "result": "passed",
+      "limitations": "Local learning fixture only; no production integration or learner effectiveness established."
+    },
+    {
+      "id": "role-error",
+      "repository": "approval-product",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "app.py",
+      "claim": "Facilitator role returns Only participants can submit; exit 2.",
+      "method": "runtime",
+      "result": "passed",
+      "limitations": "Local learning fixture only; no production integration or learner effectiveness established."
+    },
+    {
+      "id": "empty-error",
+      "repository": "approval-product",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "app.py",
+      "claim": "Whitespace proposal returns Proposal text is required; exit 2.",
+      "method": "runtime",
+      "result": "passed",
+      "limitations": "Local learning fixture only; no production integration or learner effectiveness established."
+    },
+    {
+      "id": "roadmap",
+      "repository": "approval-product",
+      "revision": "f81fd04b36c85d3c4236ba5e56222decd024807f",
+      "path": "README.md",
+      "claim": "Translation and bulk export are roadmap only; app implements submit only.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Local learning fixture only; no production integration or learner effectiveness established."
+    }
+  ],
+  "media_assets": [
+    {
+      "id": "tutorial-script",
+      "path": "tutorial-script.md",
+      "sha256": "0c4eb8580fdb9d3ec3317d5f8753eb703b36868b01fe8470851e53010a149428",
+      "classification": "unclassified-restricted-pending-policy",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": false,
+      "reviewer": "unassigned"
+    },
+    {
+      "id": "storyboard",
+      "path": "storyboard.csv",
+      "sha256": "d771d69ff87392165b558cd976df405d16bc233163c7071d9e6c82e5971e1a2d",
+      "classification": "unclassified-restricted-pending-policy",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": false,
+      "reviewer": "unassigned"
+    },
+    {
+      "id": "production-brief",
+      "path": "production-brief.md",
+      "sha256": "b3fcdc2167639e1eac9cdcd8e419163656d04fb99a71897e52005dcb6ba966e5",
+      "classification": "unclassified-restricted-pending-policy",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": false,
+      "reviewer": "unassigned"
+    }
+  ],
+  "gate_receipts": [],
+  "missing_inputs": [
+    {
+      "id": "requested-confidential-screenshot",
+      "classification": "confidential",
+      "status": "not supplied",
+      "sha256": null,
+      "reviewed": false
+    }
+  ],
+  "production_status": "draft-only; media blocked: no configured profile or approved exact voice tool"
+}

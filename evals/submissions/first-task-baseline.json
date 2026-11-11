@@ -1,0 +1,32 @@
+{
+  "case_id": "first-task",
+  "reviewer": "development-agent review; not independent",
+  "artifact": "evals/runs/first-task-baseline",
+  "criteria": {
+    "correctness": {
+      "score": 4,
+      "evidence": "first-task.md: supported command and expected JSON"
+    },
+    "evidence": {
+      "score": 2,
+      "evidence": "governance.json: HEAD predates the then-untracked fixture and paths are fixture-relative instead of Git-root-relative"
+    },
+    "learning": {
+      "score": 4,
+      "evidence": "first-task.md and practice.md: prerequisites, recovery and transfer task"
+    },
+    "governance": {
+      "score": 2,
+      "evidence": "verification.md: drafts and no approvals; mapping provenance needs correction"
+    },
+    "data_handling": {
+      "score": 4,
+      "evidence": "verification.md: synthetic data and no external processing"
+    },
+    "localization": {
+      "score": 2,
+      "evidence": "Stable task IDs; no approved glossary or localized output"
+    }
+  },
+  "critical_failures": []
+}

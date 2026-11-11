@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "terms": [
+    {
+      "id": "source-revision",
+      "source": "source revision",
+      "definition": "The exact source commit inspected for a learning artifact.",
+      "translations": {},
+      "do_not_translate": false
+    },
+    {
+      "id": "neckbeard",
+      "source": "Neckbeard",
+      "definition": "The skill name.",
+      "translations": {},
+      "do_not_translate": true
+    }
+  ]
+}

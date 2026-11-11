@@ -1,0 +1,11 @@
+document_id,document_path,repository,revision,source_path,translation_of,workflow
+onboarding,README.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+onboarding,README.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal
+first-task,first-task.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+first-task,first-task.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal
+practice,practice.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+practice,practice.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal
+troubleshooting,troubleshooting.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+troubleshooting,troubleshooting.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal
+verification,verification.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,app.py,,submit-proposal
+verification,verification.md,approval-product-fixture,f81fd04b36c85d3c4236ba5e56222decd024807f,README.md,,submit-proposal

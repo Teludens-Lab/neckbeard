@@ -1,0 +1,119 @@
+{
+  "python": "3.12.14",
+  "checks": [
+    {
+      "id": "first-task",
+      "args": [
+        "submit",
+        "--role",
+        "participant",
+        "--text",
+        "Repair the bridge"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "{\"status\": \"submitted\", \"visible_to\": [\"participant\", \"facilitator\"], \"final\": false}\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "id": "guided-practice",
+      "args": [
+        "submit",
+        "--role",
+        "participant",
+        "--text",
+        "Improve the library entrance"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "{\"status\": \"submitted\", \"visible_to\": [\"participant\", \"facilitator\"], \"final\": false}\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "id": "transfer-example",
+      "args": [
+        "submit",
+        "--role",
+        "participant",
+        "--text",
+        "Add shaded seating at the bus stop"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "{\"status\": \"submitted\", \"visible_to\": [\"participant\", \"facilitator\"], \"final\": false}\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "id": "wrong-role",
+      "args": [
+        "submit",
+        "--role",
+        "facilitator",
+        "--text",
+        "Repair the bridge"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: app.py [-h] --role ROLE --text TEXT {submit}\napp.py: error: Only participants can submit\n",
+      "passed": true
+    },
+    {
+      "id": "empty-text",
+      "args": [
+        "submit",
+        "--role",
+        "participant",
+        "--text",
+        "   "
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: app.py [-h] --role ROLE --text TEXT {submit}\napp.py: error: Proposal text is required\n",
+      "passed": true
+    },
+    {
+      "id": "missing-text",
+      "args": [
+        "submit",
+        "--role",
+        "participant"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: app.py [-h] --role ROLE --text TEXT {submit}\napp.py: error: the following arguments are required: --text\n",
+      "passed": true
+    },
+    {
+      "id": "unsupported-action",
+      "args": [
+        "export",
+        "--role",
+        "participant",
+        "--text",
+        "Repair the bridge"
+      ],
+      "exit_code": 2,
+      "expected_exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: app.py [-h] --role ROLE --text TEXT {submit}\napp.py: error: argument action: invalid choice: 'export' (choose from submit)\n",
+      "passed": true
+    },
+    {
+      "id": "help",
+      "args": [
+        "--help"
+      ],
+      "exit_code": 0,
+      "expected_exit_code": 0,
+      "stdout": "usage: app.py [-h] --role ROLE --text TEXT {submit}\n\npositional arguments:\n  {submit}\n\noptions:\n  -h, --help   show this help message and exit\n  --role ROLE\n  --text TEXT\n",
+      "stderr": "",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+# Copy into the consuming project's .github/workflows and configure literal repositories.
+name: Multi-repository tutorial drift
+on: [pull_request]
+permissions:
+  contents: read
+jobs:
+  drift:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: product
+          fetch-depth: 0
+          persist-credentials: false
+      # Replace OWNER/API and choose an explicit immutable ref for reproducible checks.
+      # For private dependencies use an approved read-only token; forks lack that secret
+      # and must remain blocked/unverified rather than silently skip the dependency.
+      - uses: actions/checkout@v4
+        with:
+          repository: OWNER/API
+          ref: REPLACE_WITH_REVIEWED_REF
+          path: api
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      # Vendor the managed Neckbeard skill into product/tools/neckbeard first.
+      - run: python -m pip install -r product/tools/neckbeard/requirements.txt
+      - run: python product/tools/neckbeard/scripts/governance.py validate --record product/.neckbeard/governance.json --profile product/.neckbeard/org-profile.yaml --root product
+      - run: python product/tools/neckbeard/scripts/governance.py stale --record product/.neckbeard/governance.json --repo product=product --repo api=api

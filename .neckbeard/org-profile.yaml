@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "configured": true,
+  "organization": "Neckbeard project",
+  "house_style": {
+    "tone": "clear, warm, precise",
+    "language": "en",
+    "date_format": "YYYY-MM-DD",
+    "accessibility": "Semantic headings, reviewed captions, text alternatives"
+  },
+  "glossary": {
+    "path": "glossary.json",
+    "source_locale": "en",
+    "target_locales": []
+  },
+  "documentation_platform": {
+    "name": "repository-markdown",
+    "root": "learning"
+  },
+  "required_templates": [
+    "references/governed-document.md"
+  ],
+  "approved_tools": [
+    {
+      "id": "local-tools",
+      "external": false,
+      "operations": [
+        "capture",
+        "voice",
+        "render"
+      ],
+      "allowed_classifications": [
+        "public",
+        "internal",
+        "personal",
+        "confidential"
+      ],
+      "personal_data_allowed": false
+    }
+  ],
+  "data_classification": {
+    "default": "confidential",
+    "classes": [
+      "public",
+      "internal",
+      "personal",
+      "confidential",
+      "classified"
+    ],
+    "external_denied": [
+      "personal",
+      "confidential",
+      "classified"
+    ],
+    "offline_only": [
+      "classified"
+    ],
+    "require_asset_review": true
+  },
+  "mandatory_reviewers": [
+    "repository-maintainer"
+  ],
+  "review_interval_days": 90
+}

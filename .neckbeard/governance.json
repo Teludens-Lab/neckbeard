@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "id": "neckbeard"
+    }
+  ],
+  "documents": [
+    {
+      "id": "maintainer-first-task",
+      "path": "learning/maintainer-first-task.md",
+      "owner": "repository-maintainer",
+      "source_revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "evidence_state": "runtime-verified",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-09",
+      "locale": "en",
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "workflow": "maintainer-verification",
+      "sources": [
+        {
+          "repository": "neckbeard",
+          "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+          "paths": [
+            "skills/neckbeard/scripts/install.py",
+            "skills/neckbeard/scripts/governance.py",
+            "skills/neckbeard/scripts/checksums.py",
+            "skills/neckbeard/components.json",
+            "skills/neckbeard/references/governance.md",
+            "tests/test_governance.py",
+            "tests/test_lifecycle.py",
+            "tests/test_behavior.py"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "source-0",
+        "source-1",
+        "source-2",
+        "source-3",
+        "source-4",
+        "source-5",
+        "source-6",
+        "source-7",
+        "executed-suite"
+      ],
+      "reviews": []
+    }
+  ],
+  "evidence": [
+    {
+      "id": "source-0",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "skills/neckbeard/scripts/install.py",
+      "claim": "Inspected dependency used by the maintainer verification workflow.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Implementation inspection, not learner testing."
+    },
+    {
+      "id": "source-1",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "skills/neckbeard/scripts/governance.py",
+      "claim": "Inspected dependency used by the maintainer verification workflow.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Implementation inspection, not learner testing."
+    },
+    {
+      "id": "source-2",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "skills/neckbeard/scripts/checksums.py",
+      "claim": "Inspected dependency used by the maintainer verification workflow.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Implementation inspection, not learner testing."
+    },
+    {
+      "id": "source-3",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "skills/neckbeard/components.json",
+      "claim": "Inspected dependency used by the maintainer verification workflow.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Implementation inspection, not learner testing."
+    },
+    {
+      "id": "source-4",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "skills/neckbeard/references/governance.md",
+      "claim": "Inspected dependency used by the maintainer verification workflow.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Implementation inspection, not learner testing."
+    },
+    {
+      "id": "source-5",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "tests/test_governance.py",
+      "claim": "Inspected dependency used by the maintainer verification workflow.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Implementation inspection, not learner testing."
+    },
+    {
+      "id": "source-6",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "tests/test_lifecycle.py",
+      "claim": "Inspected dependency used by the maintainer verification workflow.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Implementation inspection, not learner testing."
+    },
+    {
+      "id": "source-7",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "tests/test_behavior.py",
+      "claim": "Inspected dependency used by the maintainer verification workflow.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Implementation inspection, not learner testing."
+    },
+    {
+      "id": "executed-suite",
+      "repository": "neckbeard",
+      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "path": "tests/test_governance.py",
+      "claim": "23 automated tests passed locally, including metadata, Git drift, media denial, lifecycle and fixture behavior.",
+      "method": "runtime",
+      "result": "passed",
+      "limitations": "GitHub-hosted jobs and external agent host integrations have not run."
+    }
+  ],
+  "media_assets": [],
+  "gate_receipts": []
+}

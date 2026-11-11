@@ -1,0 +1,10 @@
+claim,id,limitations,method,path,repository,result,revision
+Inspected dependency used by the maintainer verification workflow.,source-0,"Implementation inspection, not learner testing.",source,skills/neckbeard/scripts/install.py,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003
+Inspected dependency used by the maintainer verification workflow.,source-1,"Implementation inspection, not learner testing.",source,skills/neckbeard/scripts/governance.py,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003
+Inspected dependency used by the maintainer verification workflow.,source-2,"Implementation inspection, not learner testing.",source,skills/neckbeard/scripts/checksums.py,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003
+Inspected dependency used by the maintainer verification workflow.,source-3,"Implementation inspection, not learner testing.",source,skills/neckbeard/components.json,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003
+Inspected dependency used by the maintainer verification workflow.,source-4,"Implementation inspection, not learner testing.",source,skills/neckbeard/references/governance.md,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003
+Inspected dependency used by the maintainer verification workflow.,source-5,"Implementation inspection, not learner testing.",source,tests/test_governance.py,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003
+Inspected dependency used by the maintainer verification workflow.,source-6,"Implementation inspection, not learner testing.",source,tests/test_lifecycle.py,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003
+Inspected dependency used by the maintainer verification workflow.,source-7,"Implementation inspection, not learner testing.",source,tests/test_behavior.py,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003
+"23 automated tests passed locally, including metadata, Git drift, media denial, lifecycle and fixture behavior.",executed-suite,GitHub-hosted jobs and external agent host integrations have not run.,runtime,tests/test_governance.py,neckbeard,passed,02d1eb76ef2d93c6ff9518c090ed63ea95c73003

@@ -1,0 +1,140 @@
+{
+  "environment": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "source_sha256": {
+    "README.md": "8bb887ff7a3a6245b0ff3b55a0b79379cdce2682a32251e5bc85d13ade518187",
+    "app.py": "9961a97f3c91c6d7363e472bb04130996428cab58b0215d1fe826ed2090f2221"
+  },
+  "source_unchanged": true,
+  "checks": [
+    {
+      "case": "worked",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product/app.py",
+        "submit",
+        "--role",
+        "participant",
+        "--text",
+        "Repair the bridge"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"submitted\", \"visible_to\": [\"participant\", \"facilitator\"], \"final\": false}\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "case": "guided",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product/app.py",
+        "submit",
+        "--role",
+        "participant",
+        "--text",
+        "Add lighting at the bus stop"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"submitted\", \"visible_to\": [\"participant\", \"facilitator\"], \"final\": false}\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "case": "transfer",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product/app.py",
+        "submit",
+        "--role",
+        "participant",
+        "--text",
+        "Install a public drinking fountain"
+      ],
+      "exit_code": 0,
+      "stdout": "{\"status\": \"submitted\", \"visible_to\": [\"participant\", \"facilitator\"], \"final\": false}\n",
+      "stderr": "",
+      "passed": true
+    },
+    {
+      "case": "wrong-role",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product/app.py",
+        "submit",
+        "--role",
+        "facilitator",
+        "--text",
+        "Repair the bridge"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: app.py [-h] --role ROLE --text TEXT {submit}\napp.py: error: Only participants can submit\n",
+      "passed": true
+    },
+    {
+      "case": "blank",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product/app.py",
+        "submit",
+        "--role",
+        "participant",
+        "--text",
+        "   "
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: app.py [-h] --role ROLE --text TEXT {submit}\napp.py: error: Proposal text is required\n",
+      "passed": true
+    },
+    {
+      "case": "missing-text",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product/app.py",
+        "submit",
+        "--role",
+        "participant"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: app.py [-h] --role ROLE --text TEXT {submit}\napp.py: error: the following arguments are required: --text\n",
+      "passed": true
+    },
+    {
+      "case": "unsupported-action",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product/app.py",
+        "export",
+        "--role",
+        "participant",
+        "--text",
+        "Repair the bridge"
+      ],
+      "exit_code": 2,
+      "stdout": "",
+      "stderr": "usage: app.py [-h] --role ROLE --text TEXT {submit}\napp.py: error: argument action: invalid choice: 'export' (choose from submit)\n",
+      "passed": true
+    },
+    {
+      "case": "help",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+        "-B",
+        "/workspace/scratch/9b38bf47b721/neckbeard/evals/fixtures/approval-product/app.py",
+        "--help"
+      ],
+      "exit_code": 0,
+      "stdout": "usage: app.py [-h] --role ROLE --text TEXT {submit}\n\npositional arguments:\n  {submit}\n\noptions:\n  -h, --help   show this help message and exit\n  --role ROLE\n  --text TEXT\n",
+      "stderr": "",
+      "passed": true
+    }
+  ]
+}
