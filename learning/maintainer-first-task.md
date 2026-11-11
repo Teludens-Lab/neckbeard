@@ -2,7 +2,7 @@
 {
   "document_id": "maintainer-first-task",
   "owner": "repository-maintainer",
-  "source_revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+  "source_revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
   "evidence_state": "runtime-verified",
   "reviewer": "repository-maintainer",
   "review_by": "2027-02-09",

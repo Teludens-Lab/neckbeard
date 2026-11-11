@@ -1,9 +1,9 @@
 document_id,document_path,repository,revision,source_path,translation_of,workflow
-maintainer-first-task,learning/maintainer-first-task.md,neckbeard,02d1eb76ef2d93c6ff9518c090ed63ea95c73003,skills/neckbeard/scripts/install.py,,maintainer-verification
-maintainer-first-task,learning/maintainer-first-task.md,neckbeard,02d1eb76ef2d93c6ff9518c090ed63ea95c73003,skills/neckbeard/scripts/governance.py,,maintainer-verification
-maintainer-first-task,learning/maintainer-first-task.md,neckbeard,02d1eb76ef2d93c6ff9518c090ed63ea95c73003,skills/neckbeard/scripts/checksums.py,,maintainer-verification
-maintainer-first-task,learning/maintainer-first-task.md,neckbeard,02d1eb76ef2d93c6ff9518c090ed63ea95c73003,skills/neckbeard/components.json,,maintainer-verification
-maintainer-first-task,learning/maintainer-first-task.md,neckbeard,02d1eb76ef2d93c6ff9518c090ed63ea95c73003,skills/neckbeard/references/governance.md,,maintainer-verification
-maintainer-first-task,learning/maintainer-first-task.md,neckbeard,02d1eb76ef2d93c6ff9518c090ed63ea95c73003,tests/test_governance.py,,maintainer-verification
-maintainer-first-task,learning/maintainer-first-task.md,neckbeard,02d1eb76ef2d93c6ff9518c090ed63ea95c73003,tests/test_lifecycle.py,,maintainer-verification
-maintainer-first-task,learning/maintainer-first-task.md,neckbeard,02d1eb76ef2d93c6ff9518c090ed63ea95c73003,tests/test_behavior.py,,maintainer-verification
+maintainer-first-task,learning/maintainer-first-task.md,neckbeard,7586d226115ba2ef89d22f79a99b0ac467ee8674,skills/neckbeard/scripts/install.py,,maintainer-verification
+maintainer-first-task,learning/maintainer-first-task.md,neckbeard,7586d226115ba2ef89d22f79a99b0ac467ee8674,skills/neckbeard/scripts/governance.py,,maintainer-verification
+maintainer-first-task,learning/maintainer-first-task.md,neckbeard,7586d226115ba2ef89d22f79a99b0ac467ee8674,skills/neckbeard/scripts/checksums.py,,maintainer-verification
+maintainer-first-task,learning/maintainer-first-task.md,neckbeard,7586d226115ba2ef89d22f79a99b0ac467ee8674,skills/neckbeard/components.json,,maintainer-verification
+maintainer-first-task,learning/maintainer-first-task.md,neckbeard,7586d226115ba2ef89d22f79a99b0ac467ee8674,skills/neckbeard/references/governance.md,,maintainer-verification
+maintainer-first-task,learning/maintainer-first-task.md,neckbeard,7586d226115ba2ef89d22f79a99b0ac467ee8674,tests/test_governance.py,,maintainer-verification
+maintainer-first-task,learning/maintainer-first-task.md,neckbeard,7586d226115ba2ef89d22f79a99b0ac467ee8674,tests/test_lifecycle.py,,maintainer-verification
+maintainer-first-task,learning/maintainer-first-task.md,neckbeard,7586d226115ba2ef89d22f79a99b0ac467ee8674,tests/test_behavior.py,,maintainer-verification

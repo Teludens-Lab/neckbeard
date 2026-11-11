@@ -10,7 +10,7 @@
       "id": "maintainer-first-task",
       "path": "learning/maintainer-first-task.md",
       "owner": "repository-maintainer",
-      "source_revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "source_revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "evidence_state": "runtime-verified",
       "reviewer": "repository-maintainer",
       "review_by": "2027-02-09",
@@ -22,7 +22,7 @@
       "sources": [
         {
           "repository": "neckbeard",
-          "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+          "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
           "paths": [
             "skills/neckbeard/scripts/install.py",
             "skills/neckbeard/scripts/governance.py",
@@ -53,7 +53,7 @@
     {
       "id": "source-0",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "skills/neckbeard/scripts/install.py",
       "claim": "Inspected dependency used by the maintainer verification workflow.",
       "method": "source",
@@ -63,7 +63,7 @@
     {
       "id": "source-1",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "skills/neckbeard/scripts/governance.py",
       "claim": "Inspected dependency used by the maintainer verification workflow.",
       "method": "source",
@@ -73,7 +73,7 @@
     {
       "id": "source-2",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "skills/neckbeard/scripts/checksums.py",
       "claim": "Inspected dependency used by the maintainer verification workflow.",
       "method": "source",
@@ -83,7 +83,7 @@
     {
       "id": "source-3",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "skills/neckbeard/components.json",
       "claim": "Inspected dependency used by the maintainer verification workflow.",
       "method": "source",
@@ -93,7 +93,7 @@
     {
       "id": "source-4",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "skills/neckbeard/references/governance.md",
       "claim": "Inspected dependency used by the maintainer verification workflow.",
       "method": "source",
@@ -103,7 +103,7 @@
     {
       "id": "source-5",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "tests/test_governance.py",
       "claim": "Inspected dependency used by the maintainer verification workflow.",
       "method": "source",
@@ -113,7 +113,7 @@
     {
       "id": "source-6",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "tests/test_lifecycle.py",
       "claim": "Inspected dependency used by the maintainer verification workflow.",
       "method": "source",
@@ -123,7 +123,7 @@
     {
       "id": "source-7",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "tests/test_behavior.py",
       "claim": "Inspected dependency used by the maintainer verification workflow.",
       "method": "source",
@@ -133,7 +133,7 @@
     {
       "id": "executed-suite",
       "repository": "neckbeard",
-      "revision": "02d1eb76ef2d93c6ff9518c090ed63ea95c73003",
+      "revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
       "path": "tests/test_governance.py",
       "claim": "23 automated tests passed locally, including metadata, Git drift, media denial, lifecycle and fixture behavior.",
       "method": "runtime",
