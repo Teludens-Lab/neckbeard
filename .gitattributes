@@ -1,0 +1,2 @@
+# Preserve the text bytes recorded in the distribution checksum manifest.
+/skills/neckbeard/** text=auto eol=lf
