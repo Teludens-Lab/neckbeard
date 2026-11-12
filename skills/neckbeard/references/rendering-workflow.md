@@ -7,7 +7,7 @@ Choose outputs from the learning contract. The bundled helpers supply document e
 Install optional rendering dependencies into the host's chosen virtual environment:
 
 ```sh
-python3 -m pip install Markdown reportlab
+python3 -m pip install Markdown reportlab==4.5.1
 python3 scripts/render_document.py --source learning/participant-guide.md --out learning/participant-guide --title "Participant guide"
 ```
 
