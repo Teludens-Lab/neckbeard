@@ -2,6 +2,8 @@ from datetime import date
 import importlib.util
 import hashlib
 import re
+import subprocess
+import tempfile
 from pathlib import Path
 import unittest
 
@@ -59,3 +61,20 @@ class PlenumCaseStudyTests(unittest.TestCase):
         self.assertTrue(vtt.startswith('WEBVTT\n\n'))
         expected = re.sub(r'(\d{2}:\d{2}:\d{2}),(\d{3})', r'\1.\2', srt)
         self.assertEqual(vtt, 'WEBVTT\n\n' + expected)
+
+    def test_overview_caption_hash_survives_git_checkout_line_endings(self):
+        provenance = g.load(ROOT/'docs/case-studies/plenum/provenance.json')
+        asset = next(a for a in provenance['media_assets'] if a['path'].endswith('.srt'))
+        for autocrlf in ('true', 'false'):
+            with self.subTest(autocrlf=autocrlf), tempfile.TemporaryDirectory() as temp:
+                checkout = Path(temp)
+                (checkout/'.gitattributes').write_bytes((ROOT/'.gitattributes').read_bytes())
+                caption = checkout/asset['path']
+                caption.parent.mkdir(parents=True)
+                caption.write_bytes((ROOT/asset['path']).read_bytes().replace(b'\r\n', b'\n'))
+                for args in (['init', '-q'], ['add', '.'], ['checkout-index', '--all', '--force']):
+                    if args[0] == 'checkout-index':
+                        caption.unlink()
+                    subprocess.run(['git', '-c', 'core.autocrlf='+autocrlf, *args],
+                                   cwd=checkout, check=True, capture_output=True)
+                self.assertEqual(hashlib.sha256(caption.read_bytes()).hexdigest(), asset['sha256'])

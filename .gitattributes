@@ -3,3 +3,5 @@
 # Keep approval hashes stable when the case study is checked out on Windows.
 /docs/case-studies/plenum/** text=auto eol=lf
 /docs/case-studies/fractured-order/** text=auto eol=lf
+# Captions outside the case-study folders are also covered by recorded hashes.
+/docs/assets/*.srt text eol=lf
