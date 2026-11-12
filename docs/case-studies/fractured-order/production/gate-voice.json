@@ -1,0 +1,11 @@
+{
+  "allowed": true,
+  "tool": "local-tools",
+  "operation": "voice",
+  "mode": "offline",
+  "asset_ids": [
+    "lesson"
+  ],
+  "policy_and_inventory_sha256": "22f3b18d2e66bb0ab15f6d4e92be702257a8172e4795728f1bfa3846d2164788",
+  "note": "Preflight only; does not sandbox tools or authenticate asset review."
+}

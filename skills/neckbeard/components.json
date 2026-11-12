@@ -1,6 +1,6 @@
 {
   "name": "neckbeard",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "core": {
     "required": true,
     "description": "Repository orientation, evidence checks, task tutorials, and output patterns"

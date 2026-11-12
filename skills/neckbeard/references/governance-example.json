@@ -14,7 +14,7 @@
       "source_revision": "REPLACE_WITH_COMMIT",
       "evidence_state": "unverified",
       "reviewer": "documentation-owner",
-      "review_by": "2099-01-01",
+      "review_by": "YYYY-MM-DD",
       "locale": "en",
       "workflow": "submit-proposal",
       "sources": [

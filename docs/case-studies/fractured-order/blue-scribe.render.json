@@ -1,0 +1,51 @@
+{
+  "title": "Fractured Order: Blue Scribe's first handoff",
+  "duration_seconds": 137.788333,
+  "renderer": "ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers",
+  "gate": {
+    "allowed": true,
+    "tool": "local-tools",
+    "operation": "render",
+    "mode": "offline",
+    "asset_ids": [
+      "fo-production-lesson-json",
+      "fo-production-01-role-png",
+      "fo-production-01-role-mp3",
+      "fo-production-02-join-png",
+      "fo-production-02-join-mp3",
+      "fo-production-03-distinguish-png",
+      "fo-production-03-distinguish-mp3",
+      "fo-production-04-record-png",
+      "fo-production-04-record-mp3",
+      "fo-production-05-handoff-png",
+      "fo-production-05-handoff-mp3",
+      "fo-production-06-transfer-png",
+      "fo-production-06-transfer-mp3"
+    ],
+    "policy_and_inventory_sha256": "bb2a5f41238299794f9762ccb459a422ae0b50344c5f5df12786d7e37fed9fce",
+    "note": "Preflight only; does not sandbox tools or authenticate asset review."
+  },
+  "inputs": {
+    "docs\\case-studies\\fractured-order\\production\\lesson.json": "68f25d90861a968a8e1e533d43cda186091518cbae4294cba506e12607057059",
+    "docs\\case-studies\\fractured-order\\production\\01-role.png": "e674269169bac3a52c2d9651221f95e03dd1058d9ed54edd9ef2ce8a3ad0155b",
+    "docs\\case-studies\\fractured-order\\production\\01-role.mp3": "88e2d1042838d10e938a65f7d7fcf85236cc1d002adf5feb6b3f8a02032dde53",
+    "docs\\case-studies\\fractured-order\\production\\02-join.png": "5e5a2d07dac46531d0b875ba019712d573565e7a5a0f2dd99b79e5f9eeb6f7ff",
+    "docs\\case-studies\\fractured-order\\production\\02-join.mp3": "db4615759d8309eca685879e473632ca7e396a82e622b97e1fffadd1ea67167f",
+    "docs\\case-studies\\fractured-order\\production\\03-distinguish.png": "aa6dc5de19372c0114434a3ef61bd35d051f5f229430fb1f130c887f53041b06",
+    "docs\\case-studies\\fractured-order\\production\\03-distinguish.mp3": "cea75d5ea1680396c656c3972a9aa869e9fe5955087619a29c5458d39db432ac",
+    "docs\\case-studies\\fractured-order\\production\\04-record.png": "2374eddfb5275f8920b3e913f0b19065c0ebd295250009ee8ddacbe18f93f259",
+    "docs\\case-studies\\fractured-order\\production\\04-record.mp3": "8d6404c79c6e5fafa76cdfc7ac350c9aaf40ebd80cc7917fafd3f0b18c40c7a3",
+    "docs\\case-studies\\fractured-order\\production\\05-handoff.png": "f98f478b21a2148d3475de7adc2d8d21dcf417b0edecb19b3db1ab4ca6d83bb9",
+    "docs\\case-studies\\fractured-order\\production\\05-handoff.mp3": "25caf8aee6b09b6b9a4c4a0dacad775f3ddc5c612b9a19ef41cfe0499ffbc89f",
+    "docs\\case-studies\\fractured-order\\production\\06-transfer.png": "84a6462ef39f815ac01493803087c9e49b074364fd4bb9cba46ce030a09f0f7a",
+    "docs\\case-studies\\fractured-order\\production\\06-transfer.mp3": "57ed9491a2328c7e279826d62adf017f1dc92fec58d94dffd67b2a1e93b15ed7"
+  },
+  "outputs": {
+    ".mp4": "bad6aecaacc2b4d6b392b0ea20c2366c40a0179517a40aa0bdd47bd27ca4da43",
+    ".mp3": "1180dbb9b16ccc8910008af26e9b4cc026e87f6b3d1cea98732ca9b8295658cd",
+    ".vtt": "40a5f0a8f310c29be30e4f239964b5a8aec815f4fc806ce9166b24156ac3a9a1",
+    ".transcript.md": "9c75aade05c566b194e48b394685901e44df7a2143bd1d1cc02b2ecf5f35cdf9"
+  },
+  "limits": "Rendering verifies files and timing bounds, not pronunciation, caption accuracy, or learning effectiveness.",
+  "packaging": "Transcript frontmatter added after rendering; output hash refreshed to final bytes."
+}

@@ -1,2 +1,5 @@
 # Preserve the text bytes recorded in the distribution checksum manifest.
 /skills/neckbeard/** text=auto eol=lf
+# Keep approval hashes stable when the case study is checked out on Windows.
+/docs/case-studies/plenum/** text=auto eol=lf
+/docs/case-studies/fractured-order/** text=auto eol=lf

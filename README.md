@@ -12,6 +12,14 @@ governance.json and the evidence you can actually verify.
 
 Neckbeard inspects implementation, distinguishes runtime checks from code inspection, and creates a learning path. It does not certify usability or learning effectiveness without learner evidence. Audio/video production depends on separately available tools.
 
+## Fractured Order learning-design case study
+
+The [Fractured Order case study](docs/case-studies/fractured-order/case-study.md) teaches a Blue Scribe's first Strategic Orientation handoff in this specific Plenum deployment. It includes a two-page PDF, HTML/Markdown job aid, locally generated MP3, narrated MP4 explainer, captions, transcript, and transfer exercise. Source is pinned to the clean local checkout; a synthetic application rehearsal passed. Hosted behavior and learner outcomes remain unverified. Preview the [browser edition](docs/case-studies/fractured-order/index.html) using the server below. The owner remains the sole approver.
+
+```bash
+python3 skills/neckbeard/scripts/governance.py validate --release --profile .neckbeard/org-profile.yaml --record docs/case-studies/fractured-order/governance.json --root .
+```
+
 ## Installation and managed lifecycle
 
 GitHub publication is pending. Once this repository is published at the intended address:
@@ -47,7 +55,7 @@ Use `--agent claude`, `--agent cursor`, or `--agent generic` with an explicit ta
 | `developer` | Architecture, setup, and a first contribution |
 | `practice` | Worked examples and independent performance |
 | `maintenance` | Revision-aware learning updates and CI drift checks |
-| `media` | Scripts, storyboards, approved-tool audio/video orchestration |
+| `media` | Narration, storyboards, approved-tool production, and FFmpeg assembly of MP3/MP4 with captions |
 | `support` | Triage, safe reproduction, escalation, and support macros |
 | `release-training` | What changed, migration, role impact, and transition practice |
 
@@ -68,11 +76,13 @@ Every output carries an owner, exact primary source revision, evidence state, re
 ```bash
 python3 skills/neckbeard/scripts/governance.py validate --profile .neckbeard/org-profile.yaml --record .neckbeard/governance.json --root .
 python3 skills/neckbeard/scripts/governance.py export --record .neckbeard/governance.json --out /tmp/learning-audit
-# Require current mandatory approvals before claiming release readiness:
+# Verify the current authorized artifact snapshot before claiming release readiness:
 python3 skills/neckbeard/scripts/governance.py validate --release --profile .neckbeard/org-profile.yaml --record .neckbeard/governance.json --root .
 ```
 
 Exports include governance.json, documents.csv, evidence.csv, mapping.csv, media-gate.csv and audit.md. CSV cells that could be interpreted as spreadsheet formulas are escaped; raw values remain in JSON. Validation checks structure and claims against the recorded evidence, not reviewer identity. Audit records do not replace access controls or an approval system.
+
+Release validation rejects empty packages and linked failed evidence. Each effective approval binds the complete artifact bytes through `artifact_sha256` and the full source dependency snapshot. The review deadline must fall within the profile's interval from each required approver's latest approval date. The owner can be the sole approver; an additional reviewer or approval step is not required when the profile names only that owner. Old approvals without hashes remain readable as history but do not establish current release readiness. See the [governance contract](skills/neckbeard/references/governance.md) for renewal and date rules.
 
 ## Continuous maintenance
 
@@ -117,3 +127,5 @@ Each skill distribution includes CHECKSUMS.json. The release workflow produces a
 ## Tutorial delivery formats
 
 Complete tutorials default to actual `.md`, `.html`, `.pdf`, `.mp4` and `.mp3` files unless the user narrows the scope. Written technical guides use Markdown, HTML and PDF. Scripts and storyboards are supporting assets; unavailable production tools leave the corresponding media explicitly incomplete. See `skills/neckbeard/references/delivery-formats.md` for rendering, review and cross-format governance requirements.
+
+The [rendering workflow](skills/neckbeard/references/rendering-workflow.md) provides executable helpers: `render_document.py` exports supported Markdown to HTML/PDF with optional Markdown and ReportLab dependencies; `render_media.py` assembles approved images, speech, and real caption timings into MP4, MP3, WebVTT, a transcript, and a render receipt using FFmpeg. Voice synthesis and real product recording still depend on available approved tools. Both helpers refuse to overwrite existing outputs.

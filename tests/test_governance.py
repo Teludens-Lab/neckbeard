@@ -1,5 +1,5 @@
 import copy
-from datetime import date
+from datetime import date, timedelta
 import hashlib
 import importlib.util
 import json
@@ -23,6 +23,23 @@ def init(root):
     git(root,'init','-q');git(root,'config','user.name','Fixture');git(root,'config','user.email','fixture@example.invalid')
 def commit(root):git(root,'add','.');git(root,'commit','-qm','fixture');return git(root,'rev-parse','HEAD')
 
+TODAY = date(2026, 11, 12)
+
+def approved_record(root, suffix='.md'):
+    r=record();d=r['documents'][0];d['path']='guide'+suffix
+    d['owner']=d['reviewer']='documentation-owner'
+    d['review_by']=(TODAY+timedelta(days=90)).isoformat()
+    meta={k:d[k] for k in ('owner','source_revision','evidence_state','reviewer','review_by','locale')};meta['document_id']=d['id']
+    path=root/d['path']
+    if suffix=='.md':path.write_text('---\n'+json.dumps(meta)+'\n---\n# Approved guide\n',encoding='utf-8')
+    else:
+        path.write_bytes(b'Approved artifact')
+        Path(str(path)+'.metadata.json').write_text(json.dumps(meta),encoding='utf-8')
+    d['reviews']=[{'reviewer':d['reviewer'],'decision':'approved','date':TODAY.isoformat(),
+        'source_revision':d['source_revision'],'sources':copy.deepcopy(d['sources']),
+        'artifact_sha256':hashlib.sha256(path.read_bytes()).hexdigest()}]
+    return r
+
 class GovernanceTests(unittest.TestCase):
     def test_profile_and_missing_policy(self):
         g.profile_check(profile());p=profile();del p['approved_tools']
@@ -32,15 +49,75 @@ class GovernanceTests(unittest.TestCase):
         with self.assertRaises(ValueError):g.record_check(r)
         r['evidence'][0].update(method='runtime',limitations='');g.record_check(r)
     def test_release_requires_complete_current_approval(self):
-        p=profile();r=record()
-        with self.assertRaises(ValueError):g.record_check(r,p,release=True)
-        d=r['documents'][0];d['reviews']=[{'reviewer':'documentation-owner','decision':'approved','date':'2026-01-01','source_revision':d['source_revision'],'sources':copy.deepcopy(d['sources'])}]
-        g.record_check(r,p,release=True)
-        d['reviews'].append(dict(d['reviews'][0],decision='rejected',date='2026-01-02'))
-        with self.assertRaises(ValueError):g.record_check(r,p,release=True)
-        d['reviews'].pop()
-        d['reviews'][0]['sources'][0]['revision']='old'
-        with self.assertRaises(ValueError):g.record_check(r,p,release=True)
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);p=profile();r=approved_record(root);d=r['documents'][0]
+            g.record_check(r,p,root,release=True,today=TODAY)
+            approval=d['reviews'].pop()
+            with self.assertRaisesRegex(ValueError,'approval missing'):g.record_check(r,p,root,release=True,today=TODAY)
+            d['reviews'].append(approval)
+            d['reviews'].append(dict(d['reviews'][0],decision='rejected'))
+            with self.assertRaisesRegex(ValueError,'approval missing'):g.record_check(r,p,root,release=True,today=TODAY)
+            d['reviews'].pop()
+            d['reviews'][0]['sources'][0]['revision']='old'
+            with self.assertRaisesRegex(ValueError,'all source dependencies'):g.record_check(r,p,root,release=True,today=TODAY)
+
+    def test_release_binds_approval_to_bytes_and_allows_owner_renewal(self):
+        for suffix in ('.md','.html','.pdf'):
+            with self.subTest(suffix=suffix), tempfile.TemporaryDirectory() as tmp:
+                root=Path(tmp);r=approved_record(root,suffix);d=r['documents'][0];path=root/d['path']
+                g.record_check(r,profile(),root,release=True,today=TODAY)
+                path.write_bytes(path.read_bytes()+b'\nChanged instructions')
+                with self.assertRaisesRegex(ValueError,'Artifact changed'):g.record_check(r,profile(),root,release=True,today=TODAY)
+                d['reviews'].append(dict(d['reviews'][0],artifact_sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
+                g.record_check(r,profile(),root,release=True,today=TODAY)
+                del d['reviews'][-1]['artifact_sha256']
+                with self.assertRaisesRegex(ValueError,'approval hash missing'):g.record_check(r,profile(),root,release=True,today=TODAY)
+
+    def test_release_rejects_failed_evidence_in_every_releasable_state(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp)
+            for state in ('source-supported','documentation-only','runtime-verified'):
+                with self.subTest(state=state):
+                    r=approved_record(root);d=r['documents'][0];d['evidence_state']=state
+                    path=root/d['path'];path.write_text(path.read_text(encoding='utf-8').replace('source-supported',state),encoding='utf-8')
+                    d['reviews'][0]['artifact_sha256']=hashlib.sha256(path.read_bytes()).hexdigest()
+                    r['evidence'].append(dict(r['evidence'][0],id='failed-command',method='runtime',result='failed'))
+                    d['evidence_ids'].append('failed-command')
+                    with self.assertRaisesRegex(ValueError,'Failed evidence|Runtime verification'):g.record_check(r,profile(),root,release=True,today=TODAY)
+
+    def test_release_requires_artifact_root_and_nonempty_package(self):
+        empty={'schema_version':1,'repositories':[],'documents':[],'evidence':[],'media_assets':[]}
+        g.record_check(empty)
+        with self.assertRaisesRegex(ValueError,'artifact root'):g.record_check(empty,profile(),release=True,today=TODAY)
+        with tempfile.TemporaryDirectory() as tmp:
+            with self.assertRaisesRegex(ValueError,'at least one document'):g.record_check(empty,profile(),Path(tmp),release=True,today=TODAY)
+
+    def test_release_enforces_review_interval_and_latest_decision(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);r=approved_record(root);d=r['documents'][0];rev=d['reviews'][0]
+            g.record_check(r,profile(),root,release=True,today=TODAY)
+            g.record_check(r,profile(),root,release=True,today=TODAY+timedelta(days=90))
+            rev['date']=(TODAY-timedelta(days=1)).isoformat()
+            with self.assertRaisesRegex(ValueError,'policy interval'):g.record_check(r,profile(),root,release=True,today=TODAY)
+            rev['date']='2020-01-01'
+            with self.assertRaisesRegex(ValueError,'policy interval'):g.record_check(r,profile(),root,release=True,today=TODAY)
+            d['reviews'].append(dict(rev,date=TODAY.isoformat()))
+            g.record_check(r,profile(),root,release=True,today=TODAY)
+            d['reviews'][-1]['date']=(TODAY+timedelta(days=1)).isoformat()
+            with self.assertRaisesRegex(ValueError,'future'):g.record_check(r,profile(),root,release=True,today=TODAY)
+            d['reviews'][-1]['date']=TODAY.isoformat()
+            with self.assertRaisesRegex(ValueError,'overdue'):g.record_check(r,profile(),root,release=True,today=TODAY+timedelta(days=91))
+
+    def test_release_cli_rejects_empty_package(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root=Path(tmp);p=profile();p['glossary']['path']='glossary.json'
+            (root/'profile.json').write_text(json.dumps(p))
+            (root/'glossary.json').write_text(json.dumps({'schema_version':1,'terms':[]}))
+            (root/'record.json').write_text(json.dumps({'schema_version':1,'repositories':[],'documents':[],'evidence':[],'media_assets':[]}))
+            result=subprocess.run([sys.executable,str(SOURCE/'scripts/governance.py'),'validate','--release','--profile',str(root/'profile.json'),'--record',str(root/'record.json'),'--root',str(root)],capture_output=True,text=True)
+            self.assertEqual(result.returncode,2,result.stderr)
+            self.assertFalse(json.loads(result.stdout)['allowed'])
+            self.assertIn('at least one document',json.loads(result.stdout)['error'])
     def test_metadata_and_exports(self):
         with tempfile.TemporaryDirectory() as tmp:
             root=Path(tmp);r=record();d=r['documents'][0]

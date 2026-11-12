@@ -1,0 +1,375 @@
+{
+  "title": "Fractured Order: Blue Scribe's first handoff",
+  "kind": "Narrated instructional explainer; not hosted product footage",
+  "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+  "voice_disclosure": "AI-generated narration using local Kokoro af_heart",
+  "segments": [
+    {
+      "id": "01-role",
+      "title": "Record the decision. Verify the handoff.",
+      "lines": [
+        "Blue Scribe records the team's decision",
+        "Facilitator submits it to White Cell",
+        "This example uses a separate training Session"
+      ],
+      "narration": "In Fractured Order, the Blue Scribe records the team's decision. The Facilitator submits it to White Cell. Your first task is to record Strategic Orientation and verify the handoff. Use a separate training Session with an assigned Blue Scribe seat and a receiving Facilitator. This guide uses AI-generated narration.",
+      "captions": [
+        {
+          "start": 0.3,
+          "end": 2.862,
+          "text": "In Fractured Order, the Blue Scribe records the"
+        },
+        {
+          "start": 2.862,
+          "end": 4.312,
+          "text": "team's decision."
+        },
+        {
+          "start": 4.312,
+          "end": 7.062,
+          "text": "The Facilitator submits it to White Cell."
+        },
+        {
+          "start": 7.062,
+          "end": 10.512,
+          "text": "Your first task is to record Strategic Orientation and"
+        },
+        {
+          "start": 10.512,
+          "end": 12.225,
+          "text": "verify the handoff."
+        },
+        {
+          "start": 12.225,
+          "end": 15.113,
+          "text": "Use a separate training Session with an assigned Blue"
+        },
+        {
+          "start": 15.113,
+          "end": 18.15,
+          "text": "Scribe seat and a receiving Facilitator."
+        },
+        {
+          "start": 18.15,
+          "end": 21.325,
+          "text": "This guide uses AI-generated narration."
+        }
+      ]
+    },
+    {
+      "id": "02-join",
+      "title": "Join as Blue Scribe.",
+      "lines": [
+        "Enter Session Code and Display Name",
+        "Check session, then choose Blue and Scribe",
+        "Join Session and confirm your workspace"
+      ],
+      "narration": "On Join Session, enter the supplied Session Code and your agreed Display Name. Select Check session, choose Blue and Scribe, then select Join Session. Confirm your team and role. Start Here provides role-specific help. If the seat is occupied, contact the Operator. Do not take the Facilitator seat as a workaround.",
+      "captions": [
+        {
+          "start": 0.3,
+          "end": 3.288,
+          "text": "On Join Session, enter the supplied Session Code"
+        },
+        {
+          "start": 3.288,
+          "end": 5.3,
+          "text": "and your agreed Display Name."
+        },
+        {
+          "start": 5.3,
+          "end": 8.35,
+          "text": "Select Check session, choose Blue and Scribe,"
+        },
+        {
+          "start": 8.35,
+          "end": 10.338,
+          "text": "then select Join Session."
+        },
+        {
+          "start": 10.338,
+          "end": 12.525,
+          "text": "Confirm your team and role."
+        },
+        {
+          "start": 12.525,
+          "end": 15.15,
+          "text": "Start Here provides role-specific help."
+        },
+        {
+          "start": 15.15,
+          "end": 18.3,
+          "text": "If the seat is occupied, contact the Operator"
+        },
+        {
+          "start": 18.3,
+          "end": 18.438,
+          "text": "."
+        },
+        {
+          "start": 18.438,
+          "end": 21.225,
+          "text": "Do not take the Facilitator seat as a workaround"
+        },
+        {
+          "start": 21.225,
+          "end": 21.4,
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "03-distinguish",
+      "title": "Separate the choice from the forecast.",
+      "lines": [
+        "Choose Blue's orientation",
+        "Forecast Red's orientation",
+        "Describe what you expect Red to do"
+      ],
+      "narration": "Open Strategic Orientation. First, choose the catalogue orientation Blue has agreed to pursue. Next, forecast Red's orientation. These are different judgments. Finally, describe what you expect Red to do under that forecast. Read the catalogue descriptions and use the team's brief. Pause to check that the three entries express the team's decision.",
+      "captions": [
+        {
+          "start": 0.3,
+          "end": 2.6,
+          "text": "Open Strategic Orientation."
+        },
+        {
+          "start": 2.6,
+          "end": 5.85,
+          "text": "First, choose the catalogue orientation Blue has agreed"
+        },
+        {
+          "start": 5.85,
+          "end": 7.0,
+          "text": "to pursue."
+        },
+        {
+          "start": 7.0,
+          "end": 9.925,
+          "text": "Next, forecast Red's orientation."
+        },
+        {
+          "start": 9.925,
+          "end": 11.7,
+          "text": "These are different judgments."
+        },
+        {
+          "start": 11.7,
+          "end": 14.35,
+          "text": "Finally, describe what you expect Red to do"
+        },
+        {
+          "start": 14.35,
+          "end": 15.95,
+          "text": "under that forecast."
+        },
+        {
+          "start": 15.95,
+          "end": 19.425,
+          "text": "Read the catalogue descriptions and use the team's brief"
+        },
+        {
+          "start": 19.425,
+          "end": 19.562,
+          "text": "."
+        },
+        {
+          "start": 19.562,
+          "end": 22.087,
+          "text": "Pause to check that the three entries express the"
+        },
+        {
+          "start": 22.087,
+          "end": 23.475,
+          "text": "team's decision."
+        }
+      ]
+    },
+    {
+      "id": "04-record",
+      "title": "Record, then inspect the saved result.",
+      "lines": [
+        "Select Record Strategic Orientation",
+        "Check the saved orientation card",
+        "Look for Forwarded to Facilitator"
+      ],
+      "narration": "Select Record Strategic Orientation. Complete any missing field identified by the form. After saving, look for Strategic Orientation forwarded to Facilitator and the orientation card. Check the saved choices and expected-action description. A toast alone is not enough. If an error appears, inspect the action list before resubmitting, then ask for help if the result is unclear.",
+      "captions": [
+        {
+          "start": 0.325,
+          "end": 2.938,
+          "text": "Select Record Strategic Orientation."
+        },
+        {
+          "start": 2.938,
+          "end": 6.312,
+          "text": "Complete any missing field identified by the form."
+        },
+        {
+          "start": 6.312,
+          "end": 9.8,
+          "text": "After saving, look for Strategic Orientation forwarded to"
+        },
+        {
+          "start": 9.8,
+          "end": 12.625,
+          "text": "Facilitator and the orientation card."
+        },
+        {
+          "start": 12.625,
+          "end": 16.188,
+          "text": "Check the saved choices and expected-action description."
+        },
+        {
+          "start": 16.188,
+          "end": 18.25,
+          "text": "A toast alone is not enough."
+        },
+        {
+          "start": 18.25,
+          "end": 21.025,
+          "text": "If an error appears, inspect the action list"
+        },
+        {
+          "start": 21.025,
+          "end": 23.775,
+          "text": "before resubmitting, then ask for help if the"
+        },
+        {
+          "start": 23.775,
+          "end": 25.5,
+          "text": "result is unclear."
+        }
+      ]
+    },
+    {
+      "id": "05-handoff",
+      "title": "Know who acts next.",
+      "lines": [
+        "Facilitator confirms receipt in Team Action Review",
+        "Facilitator reviews and submits to White Cell",
+        "A handoff does not establish White Cell completion"
+      ],
+      "narration": "Ask the assigned Facilitator to confirm receipt in Team Action Review. The Facilitator reviews and submits the record to White Cell. Forwarded to Facilitator does not mean White Cell has received, accepted, or completed it. It also does not authorize your team to advance to Move One. The handoff and the final review are separate stages.",
+      "captions": [
+        {
+          "start": 0.325,
+          "end": 3.612,
+          "text": "Ask the assigned Facilitator to confirm receipt in Team"
+        },
+        {
+          "start": 3.612,
+          "end": 4.987,
+          "text": "Action Review."
+        },
+        {
+          "start": 4.987,
+          "end": 7.888,
+          "text": "The Facilitator reviews and submits the record to White"
+        },
+        {
+          "start": 7.888,
+          "end": 8.825,
+          "text": "Cell."
+        },
+        {
+          "start": 8.825,
+          "end": 11.775,
+          "text": "Forwarded to Facilitator does not mean White Cell has"
+        },
+        {
+          "start": 11.775,
+          "end": 15.0,
+          "text": "received, accepted, or completed it."
+        },
+        {
+          "start": 15.0,
+          "end": 17.625,
+          "text": "It also does not authorize your team to advance"
+        },
+        {
+          "start": 17.625,
+          "end": 18.812,
+          "text": "to Move One."
+        },
+        {
+          "start": 18.812,
+          "end": 22.075,
+          "text": "The handoff and the final review are separate stages"
+        },
+        {
+          "start": 22.075,
+          "end": 22.225,
+          "text": "."
+        }
+      ]
+    },
+    {
+      "id": "06-transfer",
+      "title": "Practise with a different brief.",
+      "lines": [
+        "Change the choices, keep the same distinction",
+        "Use a reset or separate training Session",
+        "Show the saved inputs and receiving role"
+      ],
+      "narration": "For an independent attempt, ask the Facilitator for a different training brief and a reset or separate Session. Record the new own choice, forecast, and expected action without step prompts. Show the saved inputs, verify the handoff, and explain who acts next. Success is a correctly recorded team decision reaching the right person, not merely completing a form.",
+      "captions": [
+        {
+          "start": 0.3,
+          "end": 2.962,
+          "text": "For an independent attempt, ask the Facilitator for"
+        },
+        {
+          "start": 2.962,
+          "end": 5.525,
+          "text": "a different training brief and a reset or separate"
+        },
+        {
+          "start": 5.525,
+          "end": 6.537,
+          "text": "Session."
+        },
+        {
+          "start": 6.537,
+          "end": 8.938,
+          "text": "Record the new own choice, forecast, and"
+        },
+        {
+          "start": 8.938,
+          "end": 11.588,
+          "text": "expected action without step prompts."
+        },
+        {
+          "start": 11.588,
+          "end": 14.45,
+          "text": "Show the saved inputs, verify the handoff,"
+        },
+        {
+          "start": 14.45,
+          "end": 16.575,
+          "text": "and explain who acts next."
+        },
+        {
+          "start": 16.575,
+          "end": 19.938,
+          "text": "Success is a correctly recorded team decision reaching the"
+        },
+        {
+          "start": 19.938,
+          "end": 23.125,
+          "text": "right person, not merely completing a form."
+        }
+      ]
+    }
+  ],
+  "generation": {
+    "engine": "Kokoro 0.9.4",
+    "voice": "af_heart",
+    "speed": 0.95,
+    "sample_rate": 24000,
+    "model_revision": "8542409da2986c0ab5d41b3cf0411f7a58caab38",
+    "model_sha256": "496dba118d1a58f5f3db2efc88dbdc216e0483fc89fe6e47ee1f2c53f18ad1e4",
+    "caption_timing": "Kokoro synthesis token timestamps",
+    "network": "HF_HUB_OFFLINE=1; TRANSFORMERS_OFFLINE=1"
+  }
+}

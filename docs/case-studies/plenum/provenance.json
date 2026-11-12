@@ -1,0 +1,190 @@
+{
+  "repository": "Teludens-Lab/Plenum",
+  "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+  "inspected_on": "2026-11-12",
+  "retrieval": "GitHub connector; files retrieved at the pinned commit",
+  "files": [
+    {
+      "path": "PRODUCT.md",
+      "git_blob_sha": "d2d51e1908684012a67c6b001e192d8705110903",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/PRODUCT.md",
+      "inspected_line_ranges": [
+        [
+          1,
+          79
+        ]
+      ],
+      "claim": "Audience, desktop support, and product intent; requirements are not runtime evidence.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "path": "docs/design/journeys.md",
+      "git_blob_sha": "7ea0bf3f0990d62e92e2ad4aac11dca98f9de07d",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/docs/design/journeys.md",
+      "inspected_line_ranges": [
+        [
+          1,
+          35
+        ]
+      ],
+      "claim": "J-PAR-01 performance target and related entry/recovery journeys.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "path": "package.json",
+      "git_blob_sha": "81080768c1c7788ed4b8b0767aae18a63841de9e",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/package.json",
+      "inspected_line_ranges": [
+        [
+          1,
+          86
+        ]
+      ],
+      "claim": "Declared Node requirement and test commands; commands not executed.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "path": "apps/runtime-web/src/product/ParticipantPortal.tsx",
+      "git_blob_sha": "0eb77609d837ef2835302380e427414e0172b540",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/apps/runtime-web/src/product/ParticipantPortal.tsx",
+      "inspected_line_ranges": [
+        [
+          1,
+          234
+        ]
+      ],
+      "claim": "Actual entry labels, invitation/waiting/assignment branches, and state refresh.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "path": "apps/server/src/runtime/access/participant-entry.ts",
+      "git_blob_sha": "cd1d5d0b9ad4053fd61cfe7dac12133afbfaf9d7",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/apps/server/src/runtime/access/participant-entry.ts",
+      "inspected_line_ranges": [
+        [
+          151,
+          248
+        ]
+      ],
+      "claim": "Authenticated participant entry projection and eligible Seat/role links.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "path": "apps/server/src/runtime/access/onboarding.ts",
+      "git_blob_sha": "9cffe8f9d53163ddd2d1608f64e8236f2e25b47b",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/apps/server/src/runtime/access/onboarding.ts",
+      "inspected_line_ranges": [
+        [
+          75,
+          118
+        ],
+        [
+          327,
+          430
+        ],
+        [
+          548,
+          574
+        ]
+      ],
+      "claim": "Code lookup policy, admission, Seat eligibility, and occupancy errors.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "path": "apps/server/src/http/runtime-http.ts",
+      "git_blob_sha": "3f6c49e93dd0f2f0f165be1df6789ab11e0c73e5",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/apps/server/src/http/runtime-http.ts",
+      "inspected_line_ranges": [
+        [
+          991,
+          1008
+        ],
+        [
+          1836,
+          1845
+        ],
+        [
+          1889,
+          1897
+        ]
+      ],
+      "claim": "Routes connecting participant UI requests to the inspected commands.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "path": "apps/runtime-web/src/App.tsx",
+      "git_blob_sha": "bf6c387afac5e6bad2de6dc67b2c789864083827",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/apps/runtime-web/src/App.tsx",
+      "inspected_line_ranges": [
+        [
+          532,
+          573
+        ],
+        [
+          1569,
+          1625
+        ]
+      ],
+      "claim": "Participant portal route, workspace context, menus, and role controls.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "path": "tests/e2e/product/product-shell.spec.mjs",
+      "git_blob_sha": "f67ff26b6e2b0730696e192e61ab10325617723d",
+      "url": "https://github.com/Teludens-Lab/Plenum/blob/2e9ace12438221a617126f1f3c63f67ace89411a/tests/e2e/product/product-shell.spec.mjs",
+      "inspected_line_ranges": [
+        [
+          1821,
+          1841
+        ],
+        [
+          1959,
+          2010
+        ]
+      ],
+      "claim": "Existing automated test definitions for code/invitation entry; not executed here.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "docs/assets/neckbeard-overview.mp4",
+      "sha256": "e21a7c6457ef26721115de6ea0a00a9c493d74b2622abdad38355665105d34ea",
+      "origin": "Existing repository video; general Neckbeard overview, not a Plenum runtime walkthrough."
+    },
+    {
+      "path": "docs/assets/neckbeard-overview.srt",
+      "sha256": "5a672362fa6760f2af8dbd9e9130a923eba83d75637c4c1dadd9da3b15121170",
+      "origin": "Existing repository caption source, preserved unchanged."
+    },
+    {
+      "path": "docs/case-studies/plenum/neckbeard-overview.vtt",
+      "sha256": "b4763498c0b1d61755af87e069e632f1aecc975f541736bca6216a0452e3d07a",
+      "origin": "Converted from the existing SRT to WebVTT; same eight cue texts and timings."
+    },
+    {
+      "path": "docs/case-studies/plenum/overview-poster.jpg",
+      "sha256": "711528e5ae8e11810fa6c3d0ace03f7ea02408bf641a0b9dcbe2e38567563b42",
+      "origin": "Frame extracted from the existing overview video at 8.362891 seconds, resized to 1280 by 720; no generated imagery."
+    }
+  ],
+  "presentation_reference": "https://seth-arc.github.io/projects/unizulu-101/"
+}

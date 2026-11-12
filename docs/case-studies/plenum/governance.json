@@ -1,0 +1,998 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "id": "plenum",
+      "url": "https://github.com/Teludens-Lab/Plenum"
+    }
+  ],
+  "documents": [
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-case-study",
+      "path": "docs/case-studies/plenum/case-study.md",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "91c72a2b188cf8800cfc0e0fc182f0940f3a8c13c2594c701e94334b6751e3ee",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-participant-guide",
+      "path": "docs/case-studies/plenum/participant-guide.md",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "778c5f85be9c4689b3a1b8186531687b467d1a47c83f1032aadcf25717308fd0",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-evaluation",
+      "path": "docs/case-studies/plenum/evaluation.md",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "3b634e0d3a3b6b899cfc2b3d78051a86d0e85d70c9cba34d41a5d85b19a19f99",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-verification",
+      "path": "docs/case-studies/plenum/verification.md",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "46d4576334c67d25a93ec9c0e524ff4b30731252320417843fa227a95b9cb818",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "46ef4419c6515eb7307f82f6a60b4ce003071a551449b2464d6ac221d446c69b",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation. Owner subsequently requested the UNIZULU 101 layout, the existing overview video, and shorter case-study copy; this snapshot records those authorized changes."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-browser-edition",
+      "path": "docs/case-studies/plenum/index.html",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "edition_of": "plenum-case-study",
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "f5c93e42c75a3420c7eefa1e8d07c7da19b02198d62318a2ecbf7797a1284652",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "77300090ce1e93d72d8c430c53f948234d870dfdab717101b7017bb20e17ab79",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation. Owner subsequently requested the UNIZULU 101 layout, the existing overview video, and shorter case-study copy; this snapshot records those authorized changes."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "9923ece3f578d95f340973ed5dacad99a4c6ea6a46ae806049279706c3446d18",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "4736216ae74a5d5e896daba92856ca9b8792db3a6295bf0ddd051eabcde65595",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "9923ece3f578d95f340973ed5dacad99a4c6ea6a46ae806049279706c3446d18",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-browser-styles",
+      "path": "docs/case-studies/plenum/case-study.css",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "77f99b1dc28a9df9c6425789effdcc9811a6c8d572c3e75f0c7337e72c860b62",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "052e3b7f0efb23d1e36789e84624f45b2146028cc17aaadea9fb15b4d8976659",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation. Owner subsequently requested the UNIZULU 101 layout, the existing overview video, and shorter case-study copy; this snapshot records those authorized changes."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "40325adfe8837dbc1bc750be46cfafb17258bd81f90c488451f3cef4f2e57a95",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-observations",
+      "path": "docs/case-studies/plenum/observations.csv",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "90fa37514fa89f9e25575f5411a0abc4e9f0af4560bdee9d32bcef1c8d9f6560",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-provenance",
+      "path": "docs/case-studies/plenum/provenance.json",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "2b8de44e577ed5530229559dc25e87d7fc29ba39d396f5387ebe10967cb0a5ca",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "9699bf4deaa30749ac120fb41def5bd13fb68e286941f5d476ae43e717ecb191",
+          "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation. Owner subsequently requested the UNIZULU 101 layout, the existing overview video, and shorter case-study copy; this snapshot records those authorized changes."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-guide-html",
+      "path": "docs/case-studies/plenum/participant-guide.html",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "b303390cae697afb58cc688eafb8f405c52edc38d3c28f09380dac0be55e55e8",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "plenum-participant-guide"
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "plenum-guide-pdf",
+      "path": "docs/case-studies/plenum/participant-guide.pdf",
+      "workflow": "plenum-participant-entry",
+      "sources": [
+        {
+          "repository": "plenum",
+          "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "paths": [
+            "PRODUCT.md",
+            "docs/design/journeys.md",
+            "package.json",
+            "apps/runtime-web/src/product/ParticipantPortal.tsx",
+            "apps/server/src/runtime/access/participant-entry.ts",
+            "apps/server/src/runtime/access/onboarding.ts",
+            "apps/server/src/http/runtime-http.ts",
+            "apps/runtime-web/src/App.tsx",
+            "tests/e2e/product/product-shell.spec.mjs"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "plenum-source-1",
+        "plenum-source-2",
+        "plenum-source-3",
+        "plenum-source-4",
+        "plenum-source-5",
+        "plenum-source-6",
+        "plenum-source-7",
+        "plenum-source-8",
+        "plenum-source-9"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "ce19744f1ce416922ab18c8ece9f9ec297b9dd98440bc6a5c6b75fef36a4ba8e",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "plenum-participant-guide"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "plenum-source-1",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "PRODUCT.md",
+      "claim": "Audience, desktop support, and product intent; requirements are not runtime evidence.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "id": "plenum-source-2",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "docs/design/journeys.md",
+      "claim": "J-PAR-01 performance target and related entry/recovery journeys.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "id": "plenum-source-3",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "package.json",
+      "claim": "Declared Node requirement and test commands; commands not executed.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "id": "plenum-source-4",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "apps/runtime-web/src/product/ParticipantPortal.tsx",
+      "claim": "Actual entry labels, invitation/waiting/assignment branches, and state refresh.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "id": "plenum-source-5",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "apps/server/src/runtime/access/participant-entry.ts",
+      "claim": "Authenticated participant entry projection and eligible Seat/role links.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "id": "plenum-source-6",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "apps/server/src/runtime/access/onboarding.ts",
+      "claim": "Code lookup policy, admission, Seat eligibility, and occupancy errors.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "id": "plenum-source-7",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "apps/server/src/http/runtime-http.ts",
+      "claim": "Routes connecting participant UI requests to the inspected commands.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "id": "plenum-source-8",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "apps/runtime-web/src/App.tsx",
+      "claim": "Participant portal route, workspace context, menus, and role controls.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    },
+    {
+      "id": "plenum-source-9",
+      "repository": "plenum",
+      "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+      "path": "tests/e2e/product/product-shell.spec.mjs",
+      "claim": "Existing automated test definitions for code/invitation entry; not executed here.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Source inspection only; no Plenum deployment or learner session executed in this case study."
+    }
+  ],
+  "media_assets": [],
+  "gate_receipts": []
+}

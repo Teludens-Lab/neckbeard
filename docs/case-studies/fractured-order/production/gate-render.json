@@ -1,0 +1,13 @@
+{
+  "allowed": true,
+  "tool": "local-tools",
+  "operation": "render",
+  "mode": "offline",
+  "asset_ids": [
+    "lesson",
+    "build_slides",
+    "participant-guide"
+  ],
+  "policy_and_inventory_sha256": "ad847bb171a104ac2e148830cc301b317d84ccdbce75ddfb6413fe0afac725aa",
+  "note": "Preflight only; does not sandbox tools or authenticate asset review."
+}

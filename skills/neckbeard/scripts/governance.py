@@ -78,16 +78,20 @@ def profile_check(p):
         require(isinstance(t.get('external'), bool) and isinstance(t.get('personal_data_allowed'), bool), 'Tool mode and personal-data policy must be boolean')
         require(isinstance(t.get('operations'), list) and t['operations'] and set(t['operations']) <= {'capture', 'voice', 'render'}, 'Invalid tool operations')
         require(isinstance(t.get('allowed_classifications'), list) and set(t['allowed_classifications']) <= set(classes), 'Invalid tool classifications')
-    require(isinstance(p.get('review_interval_days'), int) and p['review_interval_days'] > 0, 'Positive review interval required')
+    require(type(p.get('review_interval_days')) is int and p['review_interval_days'] > 0, 'Positive review interval required')
     return p
 
 
 def record_check(r, p=None, root=None, release=False, today=None):
     today = today or date.today()
-    if release: require(p and p.get('configured'), 'A configured organization profile is required for release')
+    if release:
+        require(p and p.get('configured'), 'A configured organization profile is required for release')
+        profile_check(p)
+        require(root is not None, 'Release requires an artifact root to verify approved bytes')
     require(isinstance(r, dict) and r.get('schema_version') == 1, 'Unsupported governance schema')
     for k in ('repositories', 'documents', 'evidence', 'media_assets'):
         require(isinstance(r.get(k), list), k + ' must be a list')
+    if release: require(r['documents'], 'Release requires at least one document')
     repo_ids = set()
     for repo in r['repositories']:
         require(isinstance(repo, dict) and nonempty(repo.get('id')) and repo['id'] not in repo_ids, 'Invalid or duplicate repository')
@@ -129,7 +133,7 @@ def record_check(r, p=None, root=None, release=False, today=None):
             require(any(e['method'] == 'runtime' and e['result'] == 'passed' for e in entries) and all(e['result'] == 'passed' for e in entries), 'Runtime verification requires passing runtime evidence and no unresolved evidence')
         if d['evidence_state'] == 'source-supported':
             require(any(e['method'] in {'source', 'runtime'} and e['result'] == 'passed' for e in entries), 'Source-supported document lacks passing source evidence')
-        if root:
+        if root is not None:
             doc = (Path(root) / d['path']).resolve()
             require(doc.is_relative_to(Path(root).resolve()), 'Document escapes root')
             require(doc.is_file(), 'Document missing: ' + d['path'])
@@ -158,20 +162,26 @@ def record_check(r, p=None, root=None, release=False, today=None):
             require(not any(x in d['owner'].lower() or x in d['reviewer'].lower() for x in ('unassigned', 'unknown', 'pending')), 'Release requires assigned owner and reviewer')
             require(review_by >= today, 'Review overdue: ' + d['id'])
             require(d['evidence_state'] != 'unverified', 'Unverified document cannot be released')
+            require(all(e['result'] != 'failed' for e in entries), 'Failed evidence must be resolved before release: ' + d['id'])
+            artifact_sha256 = hashlib.sha256(doc.read_bytes()).hexdigest()
             required = set(p['mandatory_reviewers'] if p else []) | {d['reviewer']}
             decisions = {}
             for rev in d['reviews']:
                 require(isinstance(rev, dict) and nonempty(rev.get('reviewer')), 'Invalid review')
-                require(rev.get('source_revision') == d['source_revision'], 'Review applies to an old revision')
-                require(rev.get('sources') == d['sources'], 'Review must cover all source dependencies')
                 require(rev.get('decision') in {'approved', 'rejected', 'pending'}, 'Invalid review decision')
                 review_date = date.fromisoformat(rev['date'])
                 require(review_date <= today, 'Review date is in future')
                 previous = decisions.get(rev['reviewer'])
                 if previous is None or review_date >= previous[0]:
-                    decisions[rev['reviewer']] = (review_date, rev['decision'])
-            approved = {reviewer for reviewer, (_, decision) in decisions.items() if decision == 'approved'}
+                    decisions[rev['reviewer']] = (review_date, rev)
+            approved = {reviewer for reviewer, (_, rev) in decisions.items() if rev['decision'] == 'approved'}
             require(required <= approved, 'Mandatory reviewer approval missing: ' + d['id'])
+            for reviewer in required:
+                review_date, rev = decisions[reviewer]
+                require(rev.get('source_revision') == d['source_revision'], 'Review applies to an old revision')
+                require(rev.get('sources') == d['sources'], 'Review must cover all source dependencies')
+                require(rev.get('artifact_sha256') == artifact_sha256, 'Artifact changed or approval hash missing: ' + d['id'])
+                require(0 <= (review_by - review_date).days <= p['review_interval_days'], 'Review deadline exceeds the policy interval or precedes approval: ' + d['id'])
     for d in docs.values():
         if d.get('translation_of'):
             require(d['translation_of'] in docs and d['translation_of'] != d['id'], 'Unknown translation source')

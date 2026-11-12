@@ -53,7 +53,7 @@ Never use knowledge quizzes as substitutes for demonstrating a task. Never claim
 
 ## 4. Write usable documentation
 
-Read references/delivery-formats.md before choosing outputs. Complete tutorials default to actual MD, HTML, PDF, MP4 and MP3 files unless the user narrows scope. Written technical documents default to MD, HTML and PDF. Load media for complete tutorials; clearly report unavailable components/tools and missing deliverables. Scripts and storyboards do not count as finished audio or video.
+Read references/delivery-formats.md before choosing outputs. Complete tutorials default to actual MD, HTML, PDF, MP4 and MP3 files unless the user narrows scope. Written technical documents default to MD, HTML and PDF. Load media for complete tutorials; clearly report unavailable components/tools and missing deliverables. Use references/rendering-workflow.md for the bundled PDF/HTML exporter and MP3/MP4 assembler. Scripts and storyboards do not count as finished audio or video.
 
 
 Read references/output-patterns.md and references/production-standards.md and select only the needed patterns. Apply the shared writing, document, and tutorial standards to all learning deliverables. For audio, video, scripts, or storyboards, load the installed media component; establish tool capabilities before promising rendered media.

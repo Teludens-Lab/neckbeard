@@ -1,0 +1,18 @@
+{
+  "gateName": "browser",
+  "protectedBranch": false,
+  "ciArtifactName": null,
+  "status": "passed",
+  "actorCount": 1,
+  "sessionCount": 1,
+  "testCount": 1,
+  "skippedCount": 0,
+  "retryCount": 0,
+  "retriedToSuccessCount": 0,
+  "browserErrorCount": 0,
+  "diagnosticArtifactNames": [
+    "browser-diagnostics.json",
+    "playwright-gate-summary.json"
+  ],
+  "violations": []
+}

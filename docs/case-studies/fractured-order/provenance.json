@@ -1,0 +1,180 @@
+{
+  "repository": "ssgwm25/Fractured-Order",
+  "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+  "inspected_on": "2026-11-12",
+  "retrieval": "Clean local checkout; exact git archive used for isolated build/rehearsal. GitHub connector returned 404.",
+  "files": [
+    {
+      "path": "README.md",
+      "git_blob_sha": "33d073935f7697b87323be674dbd344fe8db7ebc",
+      "sha256": "79ff082d40490554bb7264bf7d6d5151d416ab9c40b4d8ad20829ee50d84c990",
+      "claim": "Fractured Order scenario, team topology, semantic role ownership and workflow boundaries.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/README.md"
+    },
+    {
+      "path": "index.html",
+      "git_blob_sha": "c9ef0092589eb6068230fbbb997f6c3d9c27e037",
+      "sha256": "14664d787dc08212334ad91d15c544c972f73b2bf6fb5cfd34959a23e52ef342",
+      "claim": "Session Code, Display Name, Check session, Blue, Scribe and Join Session labels.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/index.html"
+    },
+    {
+      "path": "src/core/teamContext.js",
+      "git_blob_sha": "45d85547fcd6bd85074c845eed5676053a93784f",
+      "sha256": "a7557fcb653533123b0ac88c1bd974c5c7bc85af89f3bdcd17e8e50257660a40",
+      "claim": "Public role semantics versus stable legacy route identifiers.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/src/core/teamContext.js"
+    },
+    {
+      "path": "src/roles/facilitator.js",
+      "git_blob_sha": "220b02e5b583c33e6187e388807b4d72caa57357",
+      "sha256": "b4ce70ffc4574b645bb49eb12e98ed9ba916efbd4c400b2b15e12a230828b779",
+      "claim": "Scribe orientation fields, validation, persistence and explicit Facilitator handoff.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/src/roles/facilitator.js"
+    },
+    {
+      "path": "src/roles/scribe.js",
+      "git_blob_sha": "2a27c5a62b1a6f6543ded32ae0ab97adfcb92275",
+      "sha256": "19fe40d84d6d37ae30bfa2fb50143a95d5b07c23b0079bafc299be36e8837634",
+      "claim": "Facilitator Team Action Review and final submission ownership.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/src/roles/scribe.js"
+    },
+    {
+      "path": "src/features/actions/strategicOrientationDetails.js",
+      "git_blob_sha": "c1f16e567027c73541e1ea441836d60cb5d3a961",
+      "sha256": "5d80466423b62fc1e1d46aff36a9f34789ea0835e1ac0d460c82cabc56c14a44",
+      "claim": "Blue required own orientation, Red forecast, expected-action narrative and catalogue choices.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/src/features/actions/strategicOrientationDetails.js"
+    },
+    {
+      "path": "src/features/actions/artifactLifecycle.js",
+      "git_blob_sha": "5a71a8ff3cb86a9299346c3c3c5e1cfdcf83afbf",
+      "sha256": "352bebde90c9959eaf7b796198773aefd8014b31e1c3dd7e79f9824ad61f86c7",
+      "claim": "Forwarded to Facilitator is distinct from Submitted to White Cell and Completed.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/src/features/actions/artifactLifecycle.js"
+    },
+    {
+      "path": "tests/e2e/support/liveDemoHarness.js",
+      "git_blob_sha": "49abe3a8b713b6eb9a3340b191e2b0512f5ae454",
+      "sha256": "5014563816b048bcb0ccfd429cd5424ab28277a8ba389136ff02a8f9f1de9434",
+      "claim": "Existing synthetic join, orientation-recording, handoff and receiving-role helpers.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/tests/e2e/support/liveDemoHarness.js"
+    },
+    {
+      "path": "tests/e2e/session-smoke.e2e.js",
+      "git_blob_sha": "67c0db9cd7dbecd7dc190caaebf8c6a9b524c3a4",
+      "sha256": "fef17d7c61005a85c67cd1ae360a356e2fb700fe6a858c4b78d4b4d64a006244",
+      "claim": "Existing synthetic orientation and cross-role lifecycle rehearsal.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/tests/e2e/session-smoke.e2e.js"
+    },
+    {
+      "path": "DEMO_GUIDE.md",
+      "git_blob_sha": "b01e8ac6f9661528cef64e9f8b79b28bdb0288a1",
+      "sha256": "bfb3f4e9868ce9af479eff6720657387e50cf8fec4fc23e1052b7aec46ada003",
+      "claim": "Local-only synthetic backend and limits of rehearsal evidence.",
+      "url": "https://github.com/ssgwm25/Fractured-Order/blob/10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469/DEMO_GUIDE.md"
+    }
+  ],
+  "media_assets": [
+    {
+      "path": "docs/case-studies/fractured-order/production/01-role.mp3",
+      "sha256": "88e2d1042838d10e938a65f7d7fcf85236cc1d002adf5feb6b3f8a02032dde53",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/01-role.png",
+      "sha256": "e674269169bac3a52c2d9651221f95e03dd1058d9ed54edd9ef2ce8a3ad0155b",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/02-join.mp3",
+      "sha256": "db4615759d8309eca685879e473632ca7e396a82e622b97e1fffadd1ea67167f",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/02-join.png",
+      "sha256": "5e5a2d07dac46531d0b875ba019712d573565e7a5a0f2dd99b79e5f9eeb6f7ff",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/03-distinguish.mp3",
+      "sha256": "cea75d5ea1680396c656c3972a9aa869e9fe5955087619a29c5458d39db432ac",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/03-distinguish.png",
+      "sha256": "aa6dc5de19372c0114434a3ef61bd35d051f5f229430fb1f130c887f53041b06",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/04-record.mp3",
+      "sha256": "8d6404c79c6e5fafa76cdfc7ac350c9aaf40ebd80cc7917fafd3f0b18c40c7a3",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/04-record.png",
+      "sha256": "2374eddfb5275f8920b3e913f0b19065c0ebd295250009ee8ddacbe18f93f259",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/05-handoff.mp3",
+      "sha256": "25caf8aee6b09b6b9a4c4a0dacad775f3ddc5c612b9a19ef41cfe0499ffbc89f",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/05-handoff.png",
+      "sha256": "f98f478b21a2148d3475de7adc2d8d21dcf417b0edecb19b3db1ab4ca6d83bb9",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/06-transfer.mp3",
+      "sha256": "57ed9491a2328c7e279826d62adf017f1dc92fec58d94dffd67b2a1e93b15ed7",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/06-transfer.png",
+      "sha256": "84a6462ef39f815ac01493803087c9e49b074364fd4bb9cba46ce030a09f0f7a",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/build_slides.py",
+      "sha256": "d4eef4314a2fc8648568e561e55e24002a2f7fa5495f0edc72caba3ad3c9b16a",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/gate-render.json",
+      "sha256": "8d09c13798c76986c00749df0721b0f92bbfb69cfac68f652fdb64457faaf2ff",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/gate-voice.json",
+      "sha256": "1fe5982225f962ba54a447075614fcb90c732204c889ed66cbe7b55110468ba6",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/lesson.json",
+      "sha256": "68f25d90861a968a8e1e533d43cda186091518cbae4294cba506e12607057059",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/profile.json",
+      "sha256": "7e34afe8a845b993e8d3d3d824bdb51723ba3b45849c59823032611ee2c48d9a",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/rehearsal-result.json",
+      "sha256": "75c67ecc1d5ddc37c1123dfa83feed30a018f31ee81e5bad604c80a9b7ea0939",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/production/synthesize.py",
+      "sha256": "7983255be5c5ad7915eef471e90b56f0fd179783c8e1167d64783556676d167b",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    },
+    {
+      "path": "docs/case-studies/fractured-order/participant-guide.md",
+      "sha256": "365aa37527c8dcce045341684c3d1b62f343078536327ecaac4b5cfbbc3cf0e6",
+      "origin": "Locally generated Fractured Order learning artifact or production source; no hosted screen recording."
+    }
+  ]
+}

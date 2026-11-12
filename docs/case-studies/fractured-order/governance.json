@@ -1,0 +1,1603 @@
+{
+  "schema_version": 1,
+  "repositories": [
+    {
+      "id": "fractured-order",
+      "url": "https://github.com/ssgwm25/Fractured-Order"
+    }
+  ],
+  "documents": [
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-case-study",
+      "path": "docs/case-studies/fractured-order/case-study.md",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "b2acf063d5f3b4efb86dbc5812371cb0e9e68a5bbedcb11780f51f3817849af4",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-guide",
+      "path": "docs/case-studies/fractured-order/participant-guide.md",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "365aa37527c8dcce045341684c3d1b62f343078536327ecaac4b5cfbbc3cf0e6",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-guide-html",
+      "path": "docs/case-studies/fractured-order/participant-guide.html",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "c1ab0ca6ebb27ac8d10a6761426e4c29b35edd65c6f739bdc0eb2075f1dc3a1c",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "fo-guide"
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-guide-pdf",
+      "path": "docs/case-studies/fractured-order/participant-guide.pdf",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "f7afe79ec14c78e8d43f3ae3c4136a5af203455352dbaa99129fc63a798f3642",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "fo-guide"
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-evaluation",
+      "path": "docs/case-studies/fractured-order/evaluation.md",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "275a62e7131750e383412e83c9253a04024d0da90b675bf9fc7b45f279b00c82",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-observations",
+      "path": "docs/case-studies/fractured-order/observations.csv",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "d58c2a44fe229545a81c8a30d5d2941d00784f76d62237957670780f8a592396",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-verification",
+      "path": "docs/case-studies/fractured-order/verification.md",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "40eff331590be46121e3a9fdd7b766a1b20cdfec200bda54bac0a09a4038b48f",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-browser",
+      "path": "docs/case-studies/fractured-order/index.html",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "bf958444b7e1113c2bb6fb8240580253334d628973b71d105ed6bcb9b69b1b25",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "31025167a1d4049ade1d6decb6be8e4f04aea5b2be32cc1ce4b204bc65bbdb77",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "3a216763b493f29d32252bfd3b25f4001d5e6a44aa5d5ae66f6661d392ce0136",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "fo-case-study"
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-styles",
+      "path": "docs/case-studies/fractured-order/case-study.css",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "40325adfe8837dbc1bc750be46cfafb17258bd81f90c488451f3cef4f2e57a95",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "dae8045b8e2f11742e20045cacf7f2a4659f5d0469b34d677f1d2dfbd9ad775a",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "40325adfe8837dbc1bc750be46cfafb17258bd81f90c488451f3cef4f2e57a95",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-provenance",
+      "path": "docs/case-studies/fractured-order/provenance.json",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "c23d6f05b59d46b453ab78d6a4bd5b6397390f460f2122b6e11c4e397e45c2e9",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "5a28be9288a37570930e956d93012f221496056e3dec71c1f5c4a78a1a7252a7",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-audio",
+      "path": "docs/case-studies/fractured-order/blue-scribe.mp3",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "1180dbb9b16ccc8910008af26e9b4cc026e87f6b3d1cea98732ca9b8295658cd",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "fo-guide"
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-video",
+      "path": "docs/case-studies/fractured-order/blue-scribe.mp4",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "bad6aecaacc2b4d6b392b0ea20c2366c40a0179517a40aa0bdd47bd27ca4da43",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "fo-guide"
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-captions",
+      "path": "docs/case-studies/fractured-order/blue-scribe.vtt",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "40a5f0a8f310c29be30e4f239964b5a8aec815f4fc806ce9166b24156ac3a9a1",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "fo-guide"
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-transcript",
+      "path": "docs/case-studies/fractured-order/blue-scribe.transcript.md",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "9c75aade05c566b194e48b394685901e44df7a2143bd1d1cc02b2ecf5f35cdf9",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ],
+      "edition_of": "fo-guide"
+    },
+    {
+      "owner": "repository-maintainer",
+      "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "evidence_state": "source-supported",
+      "reviewer": "repository-maintainer",
+      "review_by": "2027-02-10",
+      "locale": "en",
+      "id": "fo-render",
+      "path": "docs/case-studies/fractured-order/blue-scribe.render.json",
+      "workflow": "blue-scribe-first-handoff",
+      "sources": [
+        {
+          "repository": "fractured-order",
+          "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "paths": [
+            "README.md",
+            "index.html",
+            "src/core/teamContext.js",
+            "src/roles/facilitator.js",
+            "src/roles/scribe.js",
+            "src/features/actions/strategicOrientationDetails.js",
+            "src/features/actions/artifactLifecycle.js",
+            "tests/e2e/support/liveDemoHarness.js",
+            "tests/e2e/session-smoke.e2e.js",
+            "DEMO_GUIDE.md"
+          ]
+        }
+      ],
+      "evidence_ids": [
+        "fo-source-1",
+        "fo-source-2",
+        "fo-source-3",
+        "fo-source-4",
+        "fo-source-5",
+        "fo-source-6",
+        "fo-source-7",
+        "fo-source-8",
+        "fo-source-9",
+        "fo-source-10",
+        "fo-local-rehearsal"
+      ],
+      "templates": [
+        "references/governed-document.md"
+      ],
+      "reviews": [
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "04601c6410641d1c04778318f3f9e8cf678bc2574b26b900510cf83dadac0604",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "acb44b04aa2ac5227184ca29d4b5d9b1737c136108752256054f5d1d9b01519c",
+          "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "id": "fo-source-1",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "README.md",
+      "claim": "Fractured Order scenario, team topology, semantic role ownership and workflow boundaries.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-2",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "index.html",
+      "claim": "Session Code, Display Name, Check session, Blue, Scribe and Join Session labels.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-3",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "src/core/teamContext.js",
+      "claim": "Public role semantics versus stable legacy route identifiers.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-4",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "src/roles/facilitator.js",
+      "claim": "Scribe orientation fields, validation, persistence and explicit Facilitator handoff.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-5",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "src/roles/scribe.js",
+      "claim": "Facilitator Team Action Review and final submission ownership.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-6",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "src/features/actions/strategicOrientationDetails.js",
+      "claim": "Blue required own orientation, Red forecast, expected-action narrative and catalogue choices.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-7",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "src/features/actions/artifactLifecycle.js",
+      "claim": "Forwarded to Facilitator is distinct from Submitted to White Cell and Completed.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-8",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "tests/e2e/support/liveDemoHarness.js",
+      "claim": "Existing synthetic join, orientation-recording, handoff and receiving-role helpers.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-9",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "tests/e2e/session-smoke.e2e.js",
+      "claim": "Existing synthetic orientation and cross-role lifecycle rehearsal.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-source-10",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "DEMO_GUIDE.md",
+      "claim": "Local-only synthetic backend and limits of rehearsal evidence.",
+      "method": "source",
+      "result": "passed",
+      "limitations": "Inspected at the clean local commit; remote HEAD and hosted deployment not confirmed."
+    },
+    {
+      "id": "fo-local-rehearsal",
+      "repository": "fractured-order",
+      "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+      "path": "tests/e2e/session-smoke.e2e.js",
+      "claim": "Build passed and existing local synthetic participant/Scribe/Facilitator/White Cell smoke rehearsal passed once without retry.",
+      "method": "runtime",
+      "result": "passed",
+      "limitations": "Deterministic mock backend, not hosted Supabase/RLS or human learner evidence. One test passed in approximately 1.5 minutes."
+    }
+  ],
+  "media_assets": [
+    {
+      "id": "fo-production-01-role-mp3",
+      "path": "docs/case-studies/fractured-order/production/01-role.mp3",
+      "sha256": "88e2d1042838d10e938a65f7d7fcf85236cc1d002adf5feb6b3f8a02032dde53",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-01-role-png",
+      "path": "docs/case-studies/fractured-order/production/01-role.png",
+      "sha256": "e674269169bac3a52c2d9651221f95e03dd1058d9ed54edd9ef2ce8a3ad0155b",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-02-join-mp3",
+      "path": "docs/case-studies/fractured-order/production/02-join.mp3",
+      "sha256": "db4615759d8309eca685879e473632ca7e396a82e622b97e1fffadd1ea67167f",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-02-join-png",
+      "path": "docs/case-studies/fractured-order/production/02-join.png",
+      "sha256": "5e5a2d07dac46531d0b875ba019712d573565e7a5a0f2dd99b79e5f9eeb6f7ff",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-03-distinguish-mp3",
+      "path": "docs/case-studies/fractured-order/production/03-distinguish.mp3",
+      "sha256": "cea75d5ea1680396c656c3972a9aa869e9fe5955087619a29c5458d39db432ac",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-03-distinguish-png",
+      "path": "docs/case-studies/fractured-order/production/03-distinguish.png",
+      "sha256": "aa6dc5de19372c0114434a3ef61bd35d051f5f229430fb1f130c887f53041b06",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-04-record-mp3",
+      "path": "docs/case-studies/fractured-order/production/04-record.mp3",
+      "sha256": "8d6404c79c6e5fafa76cdfc7ac350c9aaf40ebd80cc7917fafd3f0b18c40c7a3",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-04-record-png",
+      "path": "docs/case-studies/fractured-order/production/04-record.png",
+      "sha256": "2374eddfb5275f8920b3e913f0b19065c0ebd295250009ee8ddacbe18f93f259",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-05-handoff-mp3",
+      "path": "docs/case-studies/fractured-order/production/05-handoff.mp3",
+      "sha256": "25caf8aee6b09b6b9a4c4a0dacad775f3ddc5c612b9a19ef41cfe0499ffbc89f",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-05-handoff-png",
+      "path": "docs/case-studies/fractured-order/production/05-handoff.png",
+      "sha256": "f98f478b21a2148d3475de7adc2d8d21dcf417b0edecb19b3db1ab4ca6d83bb9",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-06-transfer-mp3",
+      "path": "docs/case-studies/fractured-order/production/06-transfer.mp3",
+      "sha256": "57ed9491a2328c7e279826d62adf017f1dc92fec58d94dffd67b2a1e93b15ed7",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-06-transfer-png",
+      "path": "docs/case-studies/fractured-order/production/06-transfer.png",
+      "sha256": "84a6462ef39f815ac01493803087c9e49b074364fd4bb9cba46ce030a09f0f7a",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-build_slides-py",
+      "path": "docs/case-studies/fractured-order/production/build_slides.py",
+      "sha256": "d4eef4314a2fc8648568e561e55e24002a2f7fa5495f0edc72caba3ad3c9b16a",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-gate-render-json",
+      "path": "docs/case-studies/fractured-order/production/gate-render.json",
+      "sha256": "8d09c13798c76986c00749df0721b0f92bbfb69cfac68f652fdb64457faaf2ff",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-gate-voice-json",
+      "path": "docs/case-studies/fractured-order/production/gate-voice.json",
+      "sha256": "1fe5982225f962ba54a447075614fcb90c732204c889ed66cbe7b55110468ba6",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-lesson-json",
+      "path": "docs/case-studies/fractured-order/production/lesson.json",
+      "sha256": "68f25d90861a968a8e1e533d43cda186091518cbae4294cba506e12607057059",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-profile-json",
+      "path": "docs/case-studies/fractured-order/production/profile.json",
+      "sha256": "7e34afe8a845b993e8d3d3d824bdb51723ba3b45849c59823032611ee2c48d9a",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-rehearsal-result-json",
+      "path": "docs/case-studies/fractured-order/production/rehearsal-result.json",
+      "sha256": "75c67ecc1d5ddc37c1123dfa83feed30a018f31ee81e5bad604c80a9b7ea0939",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-production-synthesize-py",
+      "path": "docs/case-studies/fractured-order/production/synthesize.py",
+      "sha256": "7983255be5c5ad7915eef471e90b56f0fd179783c8e1167d64783556676d167b",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    },
+    {
+      "id": "fo-participant-guide-md",
+      "path": "docs/case-studies/fractured-order/participant-guide.md",
+      "sha256": "365aa37527c8dcce045341684c3d1b62f343078536327ecaac4b5cfbbc3cf0e6",
+      "classification": "internal",
+      "contains_personal_data": false,
+      "sanitized": true,
+      "reviewed": true,
+      "reviewer": "repository-maintainer",
+      "authorization_basis": "Owner selected this deployment, requested finished artifacts and approved all work; local inspected inputs, not an independent human listen-through."
+    }
+  ]
+}
