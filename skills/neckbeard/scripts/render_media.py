@@ -129,7 +129,7 @@ def render(lesson_path, output, profile_path, record_path, root):
         (work / 'lesson.transcript.md').write_bytes(('\n'.join(transcript) + '\n').encode('utf-8'))
         result = {'title': lesson['title'], 'duration_seconds': duration(work / 'lesson.mp4'),
                   'renderer': run(['ffmpeg', '-version']).splitlines()[0], 'gate': receipt,
-                  'inputs': {str(p.relative_to(root)): hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs},
+                  'inputs': {p.relative_to(root).as_posix(): hashlib.sha256(p.read_bytes()).hexdigest() for p in inputs},
                   'outputs': {s: hashlib.sha256((work / ('lesson' + s)).read_bytes()).hexdigest() for s in suffixes[:-1]},
                   'limits': 'Rendering verifies files and timing bounds, not pronunciation, caption accuracy, or learning effectiveness.'}
         (work / 'lesson.render.json').write_bytes((json.dumps(result, indent=2) + '\n').encode('utf-8'))

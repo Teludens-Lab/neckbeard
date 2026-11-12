@@ -35,6 +35,6 @@
     "scripts/governance.py": "f7612e917863768a288b931be315b904ddc762fe405fe477df59e0411f5928b3",
     "scripts/install.py": "dce00071e9fdb6fc4bb1cca6643a2c0bdf3b7d9862436faf8177bdb8b1cf22cb",
     "scripts/render_document.py": "7cb6d849e299655ccf51ecb9236a5e132d3d1cd353d8889e4c57cef74a26aa01",
-    "scripts/render_media.py": "eae0130255158107de20acd45dd287029b05a3514487ff4a88195626393de696"
+    "scripts/render_media.py": "593300b617f986febcf3370d5cb5535f6477a6fafeda6fb01f1da6ada10d91b7"
   }
 }

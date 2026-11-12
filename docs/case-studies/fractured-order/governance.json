@@ -1262,6 +1262,32 @@
           ],
           "artifact_sha256": "acb44b04aa2ac5227184ca29d4b5d9b1737c136108752256054f5d1d9b01519c",
           "authorization_basis": "Owner explicitly requested PDF/audio/video capability and examples, selected Fractured Order, and gave standing approval without a second reviewer. This records that authorization; it does not claim a human listen-through or learner evaluation."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-12",
+          "source_revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+          "sources": [
+            {
+              "repository": "fractured-order",
+              "revision": "10647dd33143fa0ffaea4b4f84c2f2fdbcbb1469",
+              "paths": [
+                "README.md",
+                "index.html",
+                "src/core/teamContext.js",
+                "src/roles/facilitator.js",
+                "src/roles/scribe.js",
+                "src/features/actions/strategicOrientationDetails.js",
+                "src/features/actions/artifactLifecycle.js",
+                "tests/e2e/support/liveDemoHarness.js",
+                "tests/e2e/session-smoke.e2e.js",
+                "DEMO_GUIDE.md"
+              ]
+            }
+          ],
+          "artifact_sha256": "1263a4fc9d0fb092c93725d3cbb55ecfba6c793d53ee5ea0107b1d24c1fb7c73",
+          "authorization_basis": "Standing owner authorization for the CI portability fix: receipt path separators normalized; no media or lesson content changed."
         }
       ]
     }

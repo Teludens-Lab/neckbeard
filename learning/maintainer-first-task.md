@@ -2,7 +2,7 @@
 {
   "document_id": "maintainer-first-task",
   "owner": "repository-maintainer",
-  "source_revision": "7586d226115ba2ef89d22f79a99b0ac467ee8674",
+  "source_revision": "728ff223c817030957128a93dedeb291ded80822",
   "evidence_state": "runtime-verified",
   "reviewer": "repository-maintainer",
   "review_by": "2027-02-09",
@@ -21,7 +21,7 @@ Use a checkout of this repository, Python 3.9 or newer, and a disposable local d
 ## Complete the task
 1. From the repository root, install YAML support: `python3 -m pip install -r skills/neckbeard/requirements.txt`.
 2. Verify the shipped source: `python3 skills/neckbeard/scripts/checksums.py verify`. Expected: `Checksums verify passed`.
-3. Run `python3 -m unittest discover -s tests -v`. Expected: all checks pass. The checks create temporary installations and fixture repositories, exercise governance and media denial paths, and clean up their temporary files.
+3. Install document-rendering test dependencies with `python3 -m pip install Markdown reportlab`, then run `python3 -m unittest discover -s tests -v`. Expected: all checks pass with no skipped PDF checks. The checks create temporary installations and fixture repositories, exercise governance and media denial paths, and clean up their temporary files.
 4. Run `python3 skills/neckbeard/scripts/governance.py validate --profile .neckbeard/org-profile.yaml --record .neckbeard/governance.json --root .`. Expected: JSON with `valid: true`.
 5. Run `python3 skills/neckbeard/scripts/governance.py stale --record .neckbeard/governance.json --repo neckbeard=.` from a clean checkout. Expected: `stale: false` if no mapped source has changed since this guide's evidence revision.
 

@@ -26,6 +26,7 @@ class PlenumCaseStudyTests(unittest.TestCase):
         self.assertEqual(len((package/'observations.csv').read_text(encoding='utf-8').splitlines()), 1)
         receipt = g.load(package/'blue-scribe.render.json')
         for path, digest in receipt['inputs'].items():
+            self.assertNotIn('\\', path, 'Render receipts must use portable repository-relative paths')
             self.assertEqual(hashlib.sha256((ROOT/path).read_bytes()).hexdigest(), digest)
         for suffix, digest in receipt['outputs'].items():
             self.assertEqual(hashlib.sha256((package/('blue-scribe'+suffix)).read_bytes()).hexdigest(), digest)
