@@ -38,7 +38,7 @@ class PlenumCaseStudyTests(unittest.TestCase):
         profile = g.profile_check(g.load(ROOT/'.neckbeard/org-profile.yaml'))
         record = g.load(package/'governance.json')
         # Historical package integrity is deterministic; the release CLI checks today's deadline.
-        g.record_check(record, profile, ROOT, release=True, today=date(2026, 11, 12))
+        g.record_check(record, profile, ROOT, release=True, today=date(2026, 11, 18))
         provenance = g.load(package/'provenance.json')
         expected_paths = {item['path'] for item in provenance['files']}
         for document in record['documents']:

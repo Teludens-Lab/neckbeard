@@ -167,22 +167,22 @@
   "media_assets": [
     {
       "path": "docs/assets/neckbeard-overview.mp4",
-      "sha256": "e21a7c6457ef26721115de6ea0a00a9c493d74b2622abdad38355665105d34ea",
+      "sha256": "2a07af77c8ec474aab54b8905a54678211097350597c455fb1b47874b8c65dfd",
       "origin": "Existing repository video; general Neckbeard overview, not a Plenum runtime walkthrough."
     },
     {
       "path": "docs/assets/neckbeard-overview.srt",
-      "sha256": "5a672362fa6760f2af8dbd9e9130a923eba83d75637c4c1dadd9da3b15121170",
-      "origin": "Existing repository caption source, preserved unchanged."
+      "sha256": "2f5a14195bfec901e0e8b13a3853c445debfd34e262491d2fb1f3cbc43d52814",
+      "origin": "Existing repository caption source, updated with the 2 min 20 s overview video on 12 November 2026."
     },
     {
       "path": "docs/case-studies/plenum/neckbeard-overview.vtt",
-      "sha256": "b4763498c0b1d61755af87e069e632f1aecc975f541736bca6216a0452e3d07a",
-      "origin": "Converted from the existing SRT to WebVTT; same eight cue texts and timings."
+      "sha256": "a7b7ffb5f2bfac3c889f6b281bf5446d8a29bf1864b3bf8ab8b8c6d583de3564",
+      "origin": "Converted from the existing SRT to WebVTT; same 38 cue texts and timings."
     },
     {
       "path": "docs/case-studies/plenum/overview-poster.jpg",
-      "sha256": "711528e5ae8e11810fa6c3d0ace03f7ea02408bf641a0b9dcbe2e38567563b42",
+      "sha256": "437f5dbb2c10aeb8b395536283c62668ff716fae969fa9e616b6349e65a39d32",
       "origin": "Frame extracted from the existing overview video at 8.362891 seconds, resized to 1280 by 720; no generated imagery."
     }
   ],
