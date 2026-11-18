@@ -757,6 +757,31 @@
           ],
           "artifact_sha256": "9699bf4deaa30749ac120fb41def5bd13fb68e286941f5d476ae43e717ecb191",
           "authorization_basis": "Owner instruction on 2026-11-12: repair the four release defects and create a Plenum case study; owner approves everything and requests no additional reviewer approval step. Recorded under that standing authorization, not an independent manual review or learner evaluation. Owner subsequently requested the UNIZULU 101 layout, the existing overview video, and shorter case-study copy; this snapshot records those authorized changes."
+        },
+        {
+          "reviewer": "repository-maintainer",
+          "decision": "approved",
+          "date": "2026-11-18",
+          "source_revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+          "sources": [
+            {
+              "repository": "plenum",
+              "revision": "2e9ace12438221a617126f1f3c63f67ace89411a",
+              "paths": [
+                "PRODUCT.md",
+                "docs/design/journeys.md",
+                "package.json",
+                "apps/runtime-web/src/product/ParticipantPortal.tsx",
+                "apps/server/src/runtime/access/participant-entry.ts",
+                "apps/server/src/runtime/access/onboarding.ts",
+                "apps/server/src/http/runtime-http.ts",
+                "apps/runtime-web/src/App.tsx",
+                "tests/e2e/product/product-shell.spec.mjs"
+              ]
+            }
+          ],
+          "artifact_sha256": "152419865bc9f10146d93cd85bf4cc34e7f747abcd3859017acb0bc65b8cbe27",
+          "authorization_basis": "Owner instruction on 2026-11-18: update the overview media fingerprints, captions and poster after the 2026-11-12 video and subtitle update so the test suite passes. Only media_assets hashes and descriptions changed; source evidence is unchanged. Recorded under that instruction, not an independent manual review or learner evaluation."
         }
       ]
     },

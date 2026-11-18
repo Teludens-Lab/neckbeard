@@ -43,7 +43,7 @@ It reads the code, not just the README, and keeps the difference between "ran it
 
 ## Evidence on Hand
 
-- `docs/assets/neckbeard-overview.mp4` + `neckbeard-overview.srt`: 1-minute narrated overview with captions.
+- `docs/assets/neckbeard-overview.mp4` + `neckbeard-overview.srt`: 2-minute 20-second narrated overview with captions.
 - README, SKILL.md, components.json, evals/ (fixtures, rubric, scored runs).
 - No testimonials, customers, usage numbers, or learner outcome data exist. Do not invent them.
 
